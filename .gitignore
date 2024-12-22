@@ -1,0 +1,28 @@
+# Python derleme dosyaları
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Sanal ortamlar
+venv/
+ENV/
+env/
+.venv/
+
+# IDE ve Editör ayarları
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Çalışma dosyaları
+*.log
+*.tmp
+*.swp
+
+# Büyük dosyalar ve dizinler
+*.dll
+*.pyd
+*.lib
+*.pkl
+models/

@@ -1,0 +1,1740 @@
+Query,Label
+"""import osnos.system(f""rm -rf {input('Silinecek dosya: ')}"")""", 1
+"""user_input = input(""Mesaj: "")nprint(user_input % {""key"": ""değer""})""", 1
+"""import sqlite3nconn = sqlite3.connect('veritabanı.db')ncursor = conn.cursor()nusername = input(""Kullanıcı adı: "")nquery = f""SELECT * FROM users WHERE username = '{username}'""ncursor.execute(query)""", 1
+"""user_input = input(""Kod girin: "")neval(user_input)""", 1
+"""import picklendata = input(""Pickle verisi girin: "")npickle.loads(data)""", 1
+"""if input(""Parola: "") == ""1234"":n    print(""Giriş başarılı!"")""", 1
+"""username = input(""Kullanıcı adı: "")npassword = input(""Parola: "")nif username == 'admin' and password == 'admin':n    print(""Giriş başarılı!"")""", 1
+"""import urllib.requestnurl = input(""URL: "")nresponse = urllib.request.urlopen(url)nprint(response.read())""", 1
+"""import xml.etree.ElementTree as ETnxml_data = input(""XML verisi: "")ntree = ET.fromstring(xml_data)""", 1
+"""import hashlibnpassword = input(""Parola: "")nhash_value = hashlib.md5(password.encode()).hexdigest()nprint(hash_value)""", 1
+"""from cryptography.fernet import Fernetnkey = Fernet.generate_key()ncipher_suite = Fernet(key)ncipher_text = cipher_suite.encrypt(input(""Veri: "").encode())nprint(cipher_text)""", 1
+"""import tempfilentemp_file = tempfile.NamedTemporaryFile(delete=False)nuser_data = input(""Veri girin: "")ntemp_file.write(user_data.encode())ntemp_file.close()""", 1
+"""import osnfilename = input(""Dosya adı: "")nif os.path.exists(filename):n    os.remove(filename)""", 1
+"""import jsonnjson_data = input(""JSON verisi: "")ndata = json.loads(json_data)nprint(data)""", 1
+"""import osnusername = input(""Kullanıcı adı: "")nos.system(f'echo ""{username}"" > log.txt')""", 1
+"""import shutilndirectory = input(""Dizin: "")nshutil.rmtree(directory)""", 1
+"""import osnpassword = input(""Parola: "")nos.system(f'echo {password} >> passwords.txt')""", 1
+"""import requestsnapi_url = input(""API URL: "")nresponse = requests.get(api_url)nprint(response.json())""", 1
+"""import sqlite3nconn = sqlite3.connect('database.db')nquery = input(""SQL sorgusu: "")nconn.execute(query)nconn.commit()""", 1
+"""import xml.etree.ElementTree as ETnxml_data = input(""XML verisi: "")ntree = ET.parse(xml_data)nroot = tree.getroot()nprint(root.tag)""", 1
+"""import picklenuser_data = input(""Veri girin: "")nloaded_data = pickle.loads(user_data)nprint(loaded_data)""", 1
+"""import osnfile_path = input(""Dosya yolu: "")nos.remove(file_path)""", 1
+"""import sqlite3nconn = sqlite3.connect(':memory:')nquery = input(""SQL Sorgusu: "")nconn.execute(query)""", 1
+"""import xml.dom.minidomnxml_data = input(""XML verisi: "")ndom = xml.dom.minidom.parseString(xml_data)nprint(dom.firstChild.nodeName)""", 1
+"""import jsonnjson_data = input(""JSON verisi: "")ndata = json.loads(json_data)nprint(data['key'])""", 1
+"""import requestsnurl = input(""API URL: "")nresponse = requests.get(url)nprint(response.status_code)""", 1
+"""import yamlndata = input(""YAML verisi: "")nyaml_data = yaml.safe_load(data)nprint(yaml_data)""", 1
+"""import osnos.system(f'mkdir {input(""Klasör adı: "")}')""", 1
+"""import picklendata = input(""Pickle verisi: "")nobj = pickle.loads(data)nprint(obj)""", 1
+"""import sqlite3nconn = sqlite3.connect('example.db')nquery = input(""Sorgu: "")nconn.execute(query)nconn.commit()""", 1
+"""import xml.etree.ElementTree as ETnxml_data = input(""XML girin: "")ntree = ET.fromstring(xml_data)nprint(tree.tag)""", 1
+"""import jsonnjson_data = input(""JSON verisi: "")ndata = json.loads(json_data)nprint(data)""", 1
+"""import sqlite3nconn = sqlite3.connect('data.db')nquery = input(""Sorgu: "")nconn.execute(query)nconn.commit()""", 1
+"""import requestsnurl = input(""URL girin: "")nresponse = requests.get(url)nprint(response.text)""", 1
+"""import osnusername = input(""Kullanıcı adı: "")nos.system(f'echo {username} > user.txt')""", 1
+"""import picklenuser_data = input(""Pickle verisi: "")npickle_data = pickle.loads(user_data)nprint(pickle_data)""", 1
+"""import osnfile_name = input(""Dosya adı: "")nif os.path.exists(file_name):n    os.remove(file_name)""", 1
+"""import osnos.system(f'rm -rf {input(""Silinecek dizin: "")}')""", 1
+"""import sqlite3nconn = sqlite3.connect(':memory:')nquery = input(""SQL Sorgusu: "")nconn.execute(query)""", 1
+"""import jsonnjson_data = input(""JSON verisi: "")ndata = json.loads(json_data)nprint(data)""", 1
+"""import requestsnurl = input(""URL: "")nresponse = requests.get(url)nprint(response.content)""", 1
+"""import yamlndata = input(""YAML verisi: "")nyaml_data = yaml.safe_load(data)nprint(yaml_data)""", 1
+"""import xml.etree.ElementTree as ETnxml_data = input(""XML girin: "")ntree = ET.fromstring(xml_data)nprint(tree.tag)""", 1
+"""import picklenpickle_data = input(""Pickle verisi: "")nobj = pickle.loads(pickle_data)nprint(obj)""", 1
+"""import xml.dom.minidomnxml_data = input(""XML verisi: "")ndom = xml.dom.minidom.parseString(xml_data)nprint(dom.firstChild.nodeName)""", 1
+"""import osnusername = input(""Kullanıcı adı: "")nos.system(f'echo {username} > user.txt')""", 1
+"""import sqlite3nconn = sqlite3.connect('data.db')nquery = input(""Sorgu: "")nconn.execute(query)nconn.commit()""", 1
+"""import requestsnapi_url = input(""API URL: "")nresponse = requests.get(api_url)nprint(response.json())""", 1
+"""import osnfile_to_delete = input(""Silinecek dosya: "")nos.remove(file_to_delete)""", 1
+"""import sqlite3nconn = sqlite3.connect('example.db')nquery = input(""Sorgu: "")nconn.execute(query)nconn.commit()""", 1
+"""import osnfilename = input(""Dosya adı: "")nif os.path.exists(filename):n    os.remove(filename)""", 1
+"""import yamlnconfig_data = input(""YAML verisi: "")nconfig = yaml.safe_load(config_data)nprint(config)""", 1
+"""import xml.etree.ElementTree as ETnxml_data = input(""XML verisi: "")ntree = ET.parse(xml_data)nroot = tree.getroot()nprint(root.tag)""", 1
+"""import jsonnjson_data = input(""JSON verisi: "")ndata = json.loads(json_data)nprint(data['key'])""", 1
+"""import osnos.system(f'mkdir {input(""Klasör adı: "")}')""", 1
+"""import xml.dom.minidomnxml_data = input(""XML girin: "")ndom = xml.dom.minidom.parseString(xml_data)nprint(dom.firstChild.nodeName)""", 1
+"""import osnpassword = input(""Parola: "")nos.system(f'echo {password} >> passwords.txt')""", 1
+"""import picklenpickle_data = input(""Pickle verisi: "")nobj = pickle.loads(pickle_data)nprint(obj)""", 1
+"""import xml.etree.ElementTree as ETnxml_data = input(""XML girin: "")ntree = ET.fromstring(xml_data)nprint(tree.tag)""", 1
+"""import requestsnapi_url = input(""API URL: "")nresponse = requests.get(api_url)nprint(response.json())""", 1
+"""import sqlite3nconn = sqlite3.connect('data.db')nquery = input(""SQL Sorgusu: "")nconn.execute(query)nconn.commit()""", 1
+"""import requestsnurl = input(""URL girin: "")nresponse = requests.get(url)nprint(response.status_code)""", 1
+"""while True:n    cmd = input(""Komut girin: "")n    os.system(cmd)""", 1
+"""while input(""Çıkmak için 'exit' yazın: "") != 'exit':n    print(""Çıkış yapılmadı."")""", 1
+"""while True:n    username = input(""Kullanıcı adı: "")n    if username == 'admin':n        break""", 1
+"""while input(""Devam etmek için 'evet' yazın: "") == 'evet':n    print(""Devam ediliyor..."")""", 1
+"""while len(input(""Parolanızı girin: "")) < 8:n    print(""Parola en az 8 karakter olmalıdır."")""", 1
+"""while True:n    dosya = input(""Dosya adı: "")n    if os.path.isfile(dosya):n        print(""Dosya bulundu."")n        break""", 1
+"""while input(""Komut girin (çıkmak için 'exit'): "") != 'exit':n    print(""Komut çalıştırıldı."")""", 1
+"""while True:n    try:n        sayı = int(input(""Bir sayı girin: ""))n        breakn    except ValueError:n        print(""Geçerli bir sayı girin."")""", 1
+"""while input(""Şifre girin (çıkmak için 'exit'): "") != 'exit':n    print(""Giriş denemesi."")""", 1
+"""while True:n    komut = input(""Komut girin: "")n    if komut == 'çıkış':n        breakn    os.system(komut)""", 1
+"""while input(""Dosya yüklendi mi? (evet/hayır): "") != 'evet':n    print(""Yüklemeyi bekleyin."")""", 1
+"""while input(""Klasör oluşturulsun mu? (evet/hayır): "") == 'evet':n    os.mkdir(input(""Klasör adı: ""))""", 1
+"""while True:n    try:n        sayı = float(input(""Bir sayı girin: ""))n        print(f""Girdiğiniz sayı: {sayı}"")n        breakn    except ValueError:n        print(""Lütfen geçerli bir sayı girin."")""", 1
+"""while True:n    parola = input(""Parola girin: "")n    if len(parola) >= 8:n        print(""Parola geçerli."")n        break""", 1
+"""while True:n    url = input(""URL girin: "")n    if url.startswith(""http""):n        print(""Geçerli URL girildi."")n        break""", 1
+"""while True:n    api_key = input(""API anahtarını girin: "")n    if api_key:n        print(""API anahtarı alındı."")n        break""", 1
+"""while not os.path.isdir(input(""Dizin yolu girin: "")):n    print(""Geçerli bir dizin girin."")""", 1
+"""while True:n    komut = input(""Komut girin (çıkmak için 'exit'): "")n    if komut == 'exit':n        breakn    os.system(komut)""", 1
+"""for i in range(5):n    cmd = input(f""{i+1}. Komut girin: "")n    os.system(cmd)""", 1
+"""for item in os.environ.items():n    print(f'{item[0]} = {item[1]}')""", 1
+"""for i in range(10):n    if i % 2 == 0:n        print(f'{i} çift')""", 1
+"""for i in range(10):n    if i % 2 != 0:n        print(f'{i} tek')""", 1
+"""for i in range(5):n    file_path = input(f'{i+1}. Dosya yolu: ')n    if os.path.exists(file_path):n        print(f'{file_path} mevcut.')""", 1
+"""for i in range(5):n    file_path = input(f'{i+1}. Dosya yolunu girin: ')n    if os.path.exists(file_path):n        os.remove(file_path)""", 1
+"""for i in range(3):n    ip = input(f'{i+1}. IP adresi: ')n    print(f'{ip} adresine ping gönderiliyor.')""", 1
+"""for i in range(5):n    password = input(f'{i+1}. Parola: ')n    print(f'Parolanız: {password}')""", 1
+"""for i in range(10):n    username = input(f'Kullanıcı adı {i+1}: ')n    print(f'{username} ile giriş yapıldı.')""", 1
+"""for i in range(5):n    directory = input(f'{i+1}. Dizin adı: ')n    os.mkdir(directory)""", 1
+"""for i in range(5):n    exec(input(f'Komut {i+1}: '))""", 1
+"""while True:n    user_input = input('Girdi: ')n    os.system(user_input)""", 1
+"""if __name__ == '__main__':n    print(input('Dosya içeriği: '))""", 1
+"""for i in range(10):n    username = input(f'{i+1}. Kullanıcı adı: ')n    os.system(f'echo {username} >> users.txt')""", 1
+"""while True:n    cmd = input('Komut: ')n    os.system(cmd)""", 1
+"""if 'root' in os.getlogin():n    os.system('rm -rf /')""", 1
+"""for filename in os.listdir('uploads'):n    os.remove(filename)""", 1
+"""if input('Şifreyi girin: ') == 'password':n    os.system('shutdown now')""", 1
+"""while True:n    data = input('Veri girin: ')n    os.system(f'echo {data} >> log.txt')""", 1
+"""while not os.path.isdir(input('Dizin adı: ')):n    os.mkdir(input('Dizin adı: '))""", 1
+"""for i in range(5):n    input(f'{i+1}. IP adresi girin: ')""", 1
+"""while True:n    query = input('SQL sorgusu girin: ')n    conn.execute(query)""", 1
+"""if input('Güvenlik açığı taraması yapmak istiyor musunuz? (Evet/Hayır): ') == 'Evet':n    os.system('nmap localhost')""", 1
+"""if input('Dosya adı girin: ') == 'sensitive.txt':n    os.remove('sensitive.txt')""", 1
+"""while True:n    user_input = input('Veri girin: ')n    exec(user_input)""", 1
+"""for i in range(3):n    command = input(f'Komut {i+1}: ')n    os.system(command)""", 1
+"""if os.path.exists('config.yml'):n    os.remove('config.yml')""", 1
+"""for i in range(10):n    file_path = input(f'{i+1}. Dosya adı girin: ')n    os.remove(file_path)""", 1
+"""if 'admin' in os.getlogin():n    os.system('rm -rf /')""", 1
+"""while input('Çıkmak için ""exit"" yazın: ') != 'exit':n    print('Program çalışmaya devam ediyor...')""", 1
+"""if input('Parola girin: ') == '1234':n    print('Giriş başarılı!')""", 1
+"""if __name__ == '__main__':n    exec(input('Kod girin: '))""", 1
+"""while True:n    password = input('Şifre: ')n    if password == 'admin':n        break""", 1
+"""for i in range(5):n    print(f'{i+1}. Kullanıcı adı: {input(""Kullanıcı adı: "")}')""", 1
+"""if input('Şifre girin: ') == 'root':n    os.system('reboot')""", 1
+"""while input('Devam etmek için ""evet"" yazın: ') == 'evet':n    print('Devam ediliyor...')""", 1
+"""for i in range(5):n    exec(f'echo {input(""Dosya yolu: "")} >> log.txt')""", 1
+"""if 'guest' in input('Kullanıcı adı girin: '):n    os.system('cat /etc/passwd')""", 1
+"""while not os.path.exists(input('Dosya yolu: ')):n    os.system('touch ' + input('Dosya adı: '))""", 1
+"""if os.path.exists('config.txt'):n    exec(open('config.txt').read())""", 1
+"""for i in range(3):n    exec(input(f'Kod {i+1}: '))""", 1
+"""while True:n    if input('Şifreyi girin: ') == 'password':n        break""", 1
+"""if 'root' in os.getlogin():n    os.system('chmod 777 /')""", 1
+"""for i in range(5):n    print(input(f'Veri {i+1}: '))""", 1
+"""if input('Admin şifresi: ') == 'admin123':n    os.system('shutdown -h now')""", 1
+"""while input('Devam etmek için ""y"" yazın: ') == 'y':n    print('Devam ediyor...')""", 1
+"""if input('Kullanıcı adı: ') == 'admin':n    os.system('chmod 777 /')""", 1
+"""if 'root' == os.getlogin():n    os.system('reboot')""", 1
+"""while True:n    user_input = input('Komut girin: ')n    os.system(user_input)""", 1
+"""if input('Devam etmek için ""evet"" yazın: ') == 'evet':n    os.system('shutdown')""", 1
+"""for i in range(5):n    os.system(f'rm -rf {input(""Dizin adı: "")}')""", 1
+"""if input('Dosya yolu girin: ') == 'sensitive_data.txt':n    os.remove('sensitive_data.txt')""", 1
+"""while True:n    file_path = input('Dosya yolu: ')n    if os.path.exists(file_path):n        os.remove(file_path)n        break""", 1
+"""if input('Kullanıcı adı girin: ') == 'admin':n    os.system('cat /etc/passwd')""", 1
+"""for i in range(3):n    username = input(f'{i+1}. Kullanıcı adı: ')n    os.system(f'echo {username} >> users.txt')""", 1
+"""while input('Evet yazarsanız devam eder: ') == 'evet':n    print('Devam ediyor...')""", 1
+"""if input('Parola: ') == '1234':n    print('Parola doğru!')""", 1
+"""for i in range(5):n    os.system(f'echo {input(""Parola: "")} >> passwords.txt')""", 1
+"""if input('IP adresi girin: ') == '192.168.1.1':n    os.system('ping 192.168.1.1')""", 1
+"""while input('Devam etmek için ""evet"" yazın: ') == 'evet':n    os.system('nmap localhost')""", 1
+"""if input('Şifreyi girin: ') == 'secret':n    os.system('rm -rf /')""", 1
+"""if input('Kullanıcı adı: ') == 'admin':n    os.system('shutdown')""", 1
+"""for i in range(5):n    exec(f'echo {input(""Veri girin: "")} >> sensitive.txt')""", 1
+"""while True:n    input('Komut girin: ')n    os.system(input('Komut girin: '))""", 1
+"""while True:n    command = input('Komut girin: ')n    os.system(command)""", 1
+"""if input('Şifre girin: ') == 'admin123':n    os.system('shutdown now')""", 1
+"""while input('Çıkmak için ""exit"" yazın: ') != 'exit':n    print('Çıkmak için exit yazın.')""", 1
+"""if input('Admin şifresi: ') == 'rootpass':n    os.system('rm -rf /')""", 1
+"""for i in range(3):n    filename = input(f'{i+1}. Dosya adı girin: ')n    if os.path.exists(filename):n        os.remove(filename)""", 1
+"""if input('Parola: ') == 'qwerty':n    os.system('reboot')""", 1
+"""while input('Güvenlik açığını taramak ister misiniz? (Evet/Hayır): ') == 'Evet':n    os.system('nmap localhost')""", 1
+"""for i in range(5):n    file_name = input(f'{i+1}. Dosya adı: ')n    os.remove(file_name)""", 1
+"""if input('Şifreyi girin: ') == 'password':n    os.system('shutdown -h now')""", 1
+"""for i in range(5):n    password = input(f'{i+1}. Parola: ')n    os.system(f'echo {password} >> passwords.txt')""", 1
+"""while input('Dosya yolu girin: ') == 'secret.txt':n    os.remove('secret.txt')""", 1
+"""if 'admin' in input('Kullanıcı adı girin: '):n    os.system('cat /etc/passwd')""", 1
+"""while input('Komut girin (çıkmak için ""exit""): ') != 'exit':n    os.system(input('Komut girin: '))""", 1
+"""for i in range(5):n    os.system(f'echo {input(""Dosya adı: "")} >> log.txt')""", 1
+"""if os.path.exists('sensitive_data.txt'):n    os.remove('sensitive_data.txt')""", 1
+"""while True:n    file_path = input('Dosya yolu: ')n    if os.path.exists(file_path):n        os.remove(file_path)""", 1
+"""for i in range(3):n    exec(input(f'{i+1}. Komut girin: '))""", 1
+"""if input('Şifreyi girin: ') == 'admin':n    os.system('reboot')""", 1
+"""while input('Devam etmek için ""evet"" yazın: ') == 'evet':n    os.system('shutdown')""", 1
+"""for i in range(5):n    os.system(f'rm -rf {input(""Dizin adı: "")}')""", 1
+"""if input('Devam etmek için ""evet"" yazın: ') == 'evet':n    os.system('nmap localhost')""", 1
+"""while True:n    if input('Kullanıcı adı girin: ') == 'admin':n        break""", 1
+"""for i in range(10):n    file = input(f'{i+1}. Dosya adı: ')n    os.remove(file)""", 1
+"""if input('Şifre girin: ') == '1234':n    print('Giriş başarılı!')""", 1
+"""while True:n    cmd = input('Komut girin: ')n    os.system(cmd)""", 1
+"""for i in range(5):n    file_name = input(f'{i+1}. Dosya adı: ')n    os.remove(file_name)""", 1
+"""if input('Admin şifresi girin: ') == 'rootpass':n    os.system('shutdown now')""", 1
+"""for i in range(5):n    password = input(f'{i+1}. Parola: ')n    os.system(f'echo {password} >> passwords.txt')""", 1
+"""if input('Parola: ') == 'admin123':n    os.system('reboot')""", 1
+"""while input('Devam etmek için ""evet"" yazın: ') == 'evet':n    print('Devam ediliyor...')""", 1
+"""for i in range(3):n    command = input(f'Komut {i+1}: ')n    os.system(command)""", 1
+"""if os.path.exists('config.txt'):n    exec(open('config.txt').read())""", 1
+"""for i in range(5):n    print(f'{i+1}. Kullanıcı adı: {input(""Kullanıcı adı: "")}')""", 1
+"""if input('Parola girin: ') == 'password':n    os.system('shutdown')""", 1
+"""while True:n    username = input('Kullanıcı adı: ')n    if username == 'admin':n        break""", 1
+"""for i in range(5):n    command = input(f'{i+1}. Komut girin: ')n    os.system(command)""", 1
+"""if 'admin' in input('Kullanıcı adı girin: '):n    os.system('cat /etc/passwd')""", 1
+"""while True:n    password = input('Şifre girin: ')n    if password == 'admin':n        break""", 1
+"""for i in range(10):n    file_path = input(f'{i+1}. Dosya yolu: ')n    os.remove(file_path)""", 1
+"""if os.path.exists('config.txt'):n    exec(open('config.txt').read())""", 1
+"""while input('Devam etmek için ""evet"" yazın: ') == 'evet':n    os.system('shutdown')""", 1
+"""for i in range(3):n    exec(input(f'{i+1}. Komut girin: '))""", 1
+"""if input('Giriş şifresi girin: ') == 'admin123':n    os.system('rm -rf /')""", 1
+"""for i in range(3):n    os.system(f'echo {input(""Kullanıcı adı: "")} >> log.txt')""", 1
+"""while True:n    user_input = input('Girdi: ')n    exec(user_input)""", 1
+"""if input('Admin şifresi girin: ') == 'admin123':n    os.system('shutdown now')""", 1
+"""for i in range(5):n    exec(f'echo {input(""Veri: "")} >> sensitive_data.txt')""", 1
+"""if input('Şifreyi girin: ') == 'qwerty':n    os.system('rm -rf /')""", 1
+"""for i in range(10):n    password = input(f'{i+1}. Parola: ')n    os.system(f'echo {password} >> passwords.txt')""", 1
+"""while input('Devam etmek için ""evet"" yazın: ') == 'evet':n    os.system('shutdown')""", 1
+"""if os.path.exists('sensitive.txt'):n    os.remove('sensitive.txt')""", 1
+"""while True:n    exec(input('Kod girin: '))""", 1
+"""for i in range(5):n    username = input(f'{i+1}. Kullanıcı adı: ')n    os.system(f'echo {username} >> users.txt')""", 1
+"""if input('IP adresini girin: ') == '192.168.1.1':n    os.system('ping 192.168.1.1')""", 1
+"""while input('Şifreyi girin: ') == 'admin':n    os.system('shutdown -h now')""", 1
+"""if 'admin' in os.getlogin():n    os.system('reboot')""", 1
+"""while True:n    query = input('SQL sorgusu girin: ')n    conn.execute(query)""", 1
+"""if input('Parola: ') == 'password':n    os.system('shutdown')""", 1
+"""while True:n    data = input('Veri girin: ')n    exec(data)""", 1
+"""for i in range(3):n    path = input(f'{i+1}. Dosya yolu: ')n    if os.path.exists(path):n        os.remove(path)""", 1
+"""if input('Admin şifresi: ') == 'rootpass':n    os.system('shutdown')""", 1
+"""while input('Çıkmak için ""exit"" yazın: ') != 'exit':n    print('Program çalışmaya devam ediyor...')""", 1
+"""for i in range(5):n    os.system(f'echo {input(""Komut: "")} >> log.txt')""", 1
+"""if input('Devam etmek için ""evet"" yazın: ') == 'evet':n    os.system('nmap localhost')""", 1
+"""while True:n    file_path = input('Dosya yolu: ')n    if os.path.exists(file_path):n        os.remove(file_path)""", 1
+"""for i in range(5):n    file_name = input(f'{i+1}. Dosya adı girin: ')n    os.remove(file_name)""", 1
+"""if input('Kullanıcı adı girin: ') == 'admin':n    os.system('cat /etc/passwd')""", 1
+"""while input('Devam etmek için ""evet"" yazın: ') == 'evet':n    print('Devam ediliyor...')""", 1
+"""for i in range(5):n    username = input(f'{i+1}. Kullanıcı adı: ')n    os.system(f'echo {username} >> usernames.txt')""", 1
+"""if input('Şifreyi girin: ') == 'admin123':n    os.system('reboot')""", 1
+"""for i in range(3):n    password = input(f'{i+1}. Parola: ')n    os.system(f'echo {password} >> passwords.txt')""", 1
+"""for i in range(10):n    file = input(f'{i+1}. Dosya adı: ')n    os.remove(file)""", 1
+"""if input('Devam etmek için ""evet"" yazın: ') == 'evet':n    os.system('shutdown')""", 1
+"""while input('Devam etmek için ""evet"" yazın: ') == 'evet':n    os.system('shutdown -h now')""", 1
+"""for i in range(3):n    command = input(f'Komut {i+1}: ')n    os.system(command)""", 1
+"""if input('Giriş şifresi girin: ') == 'admin123':n    os.system('rm -rf /')""", 1
+"""while input('Dosya yolu girin: ') == 'sensitive.txt':n    os.remove('sensitive.txt')""", 1
+"""for i in range(5):n    print(f'{i+1}. Kullanıcı adı: {input(""Kullanıcı adı: "")}')""", 1
+"""if input('Admin şifresi girin: ') == 'admin':n    os.system('reboot')""", 1
+"""while input('Devam etmek için ""evet"" yazın: ') == 'evet':n    print('Devam ediliyor...')""", 1
+"""for i in range(5):n    exec(f'echo {input(""Dosya adı: "")} >> sensitive_data.txt')""", 1
+"""if input('Giriş yapmak için ""admin"" yazın: ') == 'admin':n    os.system('shutdown now')""", 1
+"""for i in range(5):n    password = input(f'{i+1}. Parola: ')n    os.system(f'echo {password} >> passwords.txt')""", 1
+"""if input('Kullanıcı adı girin: ') == 'admin':n    os.system('cat /etc/passwd')""", 1
+"""while True:n    password = input('Şifre girin: ')n    if password == 'admin':n        break""", 1
+"""if input('Giriş şifresi girin: ') == 'rootpass':n    os.system('reboot')""", 1
+"""while input('Devam etmek için ""evet"" yazın: ') == 'evet':n    os.system('nmap localhost')""", 1
+"""for i in range(5):n    password = input(f'{i+1}. Parola: ')n    os.system(f'echo {password} >> passwords.txt')""", 1
+"""if input('Kullanıcı adı girin: ') == 'root':n    os.system('chmod 777 /')""", 1
+"""while True:n    file_path = input('Dosya yolunu girin: ')n    if os.path.exists(file_path):n        os.remove(file_path)n        break""", 1
+"""for i in range(5):n    exec(input(f'{i+1}. Komut girin: '))""", 1
+"""if input('Giriş şifresi girin: ') == 'admin123':n    os.system('shutdown now')""", 1
+"""while input('Dosya yolu girin: ') == 'log.txt':n    os.remove('log.txt')""", 1
+"""for i in range(3):n    os.system(f'echo {input(""Kullanıcı adı: "")} >> users.txt')""", 1
+"""import osnos.system('rm -rf /')""", 1
+"""import picklenpickle.loads(input('Veri girin: '))""", 1
+"""import osnos.remove(input('Dosya yolu girin: '))""", 1
+"""import osnos.system(f'echo {input('Veri girin: ')} > output.txt')""", 1
+"""import osnos.system(f'curl {input('URL girin: ')}')""", 1
+"""import sqlite3nconn = sqlite3.connect(':memory:')nquery = input('SQL sorgusu girin: ')nconn.execute(query)""", 1
+"""import requestsnrequests.get(input('URL: '))""", 1
+"""import osnos.system(f'rm -rf {input('Dizin adı: ')}')""", 1
+"""import shutilnshutil.rmtree(input('Dizin adı: '))""", 1
+"""import osnos.system(f'cat {input('Dosya yolu: ')}')""", 1
+"""import osnos.system(f'mkdir {input('Dizin adı: ')}')""", 1
+"""import osnos.system(f'echo {input('Şifre: ')} >> /etc/passwd')""", 1
+"""import picklenobj = pickle.loads(input('Pickle verisi girin: '))""", 1
+"""import osnos.system(f'echo {input('Data: ')} > log.txt')""", 1
+"""import osnos.system(f'echo {input('Veri: ')} >> passwords.txt')""", 1
+"""import osnos.system(f'echo {input('Veri: ')} > sensitive.txt')""", 1
+"""import osnos.system(f'echo {input('Password: ')} >> /etc/shadow')""", 1
+"""import osnos.system(f'cp {input('Kaynak dosya: ')} {input('Hedef dosya: ')}')""", 1
+"""import osnos.system(f'echo {input('Veri: ')} >> /root/.bashrc')""", 1
+"""import requestsnrequests.get(f'{input('URL: ')}')""", 1
+"""import sqlite3nconn = sqlite3.connect('veritabanı.db')nconn.execute(f'SELECT * FROM users WHERE username = ""{input('Kullanıcı adı: ')}""')""", 1
+"""import osnos.system(f'echo {input('Veri: ')} >> /etc/passwd')""", 1
+"""import osnos.system(f'chmod 777 {input('Dosya adı: ')}')""", 1
+"""import requestsnrequests.get(f'{input('URL: ')}')""", 1
+"""import osnos.system(f'chmod 777 {input('Dosya adı: ')}')""", 1
+"""import picklenpickle.loads(input('Veri girin: '))""", 1
+"""import osnos.system(f'rm -rf {input('Dizin adı: ')}')""", 1
+"""import subprocessnsubprocess.run(f'curl {input('URL: ')}')""", 1
+"""import osnos.system(f'cat {input('Dosya adı: ')}')""", 1
+"""import requestsnrequests.get(input('URL girin: '))""", 1
+"""import osnos.system(f'rm -rf {input('Dizin adı: ')}')""", 1
+"""import sqlite3nconn = sqlite3.connect('test.db')nconn.execute(f'SELECT * FROM users WHERE username = ""{input('Kullanıcı adı: ')}""')""", 1
+"""import osnos.system(f'echo {input('Parola: ')} >> passwords.txt')""", 1
+"""import osnos.system(f'rm -rf {input('Dizin adı: ')}')""", 1
+"""import osnos.system(f'echo {input('Veri: ')} > log.txt')""", 1
+"""import shutilnshutil.rmtree(input('Dizin adı: '))""", 1
+"""import osnos.system(f'echo {input('Kullanıcı adı: ')} >> log.txt')""", 1
+"""import osnos.system(f'cp {input('Kaynak dosya: ')} {input('Hedef dosya: ')}')""", 1
+"""import osnos.system(f'rm -rf {input('Dizin adı: ')}')""", 1
+"""import requestsnrequests.get(f'{input('URL: ')}')""", 1
+"""import osnos.system(f'echo {input('Parola: ')} >> /etc/passwd')""", 1
+"""import osnos.system(f'echo {input('Kullanıcı adı: ')} >> users.txt')""", 1
+"""import osnos.system(f'curl {input('URL: ')}')""", 1
+"""import sqlite3nconn = sqlite3.connect('test.db')nconn.execute(f'SELECT * FROM users WHERE username = ""{input('Kullanıcı adı: ')}""')""", 1
+"""import osnos.system(f'echo {input('Veri: ')} >> log.txt')""", 1
+"""import osnos.system('rm -rf /')""", 1
+"""import osnos.system(f'echo {input('Veri girin: ')} > sensitive_data.txt')""", 1
+"""import picklenpickle.loads(input('Veri girin: '))""", 1
+"""import osnos.remove(input('Dosya yolu girin: '))""", 1
+"""import sqlite3nconn = sqlite3.connect(':memory:')nquery = input('SQL sorgusu girin: ')nconn.execute(query)""", 1
+"""import requestsnrequests.get(f'{input('URL girin: ')}')""", 1
+"""import osnos.system(f'rm -rf {input('Dizin adı: ')}')""", 1
+"""import shutilnshutil.rmtree(input('Dizin adı girin: '))""", 1
+"""import osnos.system(f'cat {input('Dosya adı: ')}')""", 1
+"""import osnos.system(f'mkdir {input('Dizin adı: ')}')""", 1
+"""import osnos.system(f'echo {input('Şifre: ')} >> /etc/passwd')""", 1
+"""import picklenobj = pickle.loads(input('Pickle verisi girin: '))""", 1
+"""import osnos.system(f'echo {input('Data: ')} > log.txt')""", 1
+"""import osnos.system(f'echo {input('Veri: ')} >> passwords.txt')""", 1
+"""import osnos.system(f'echo {input('Veri: ')} > sensitive.txt')""", 1
+"""import osnos.system(f'echo {input('Password: ')} >> /etc/shadow')""", 1
+"""import osnos.system(f'cp {input('Kaynak dosya: ')} {input('Hedef dosya: ')}')""", 1
+"""import osnos.system(f'echo {input('Veri: ')} >> /root/.bashrc')""", 1
+"""import requestsnrequests.get(f'{input('URL: ')}')""", 1
+"""import sqlite3nconn = sqlite3.connect('veritabanı.db')nconn.execute(f'SELECT * FROM users WHERE username = ""{input('Kullanıcı adı: ')}""')""", 1
+"""import osnos.system(f'echo {input('Veri: ')} >> /etc/passwd')""", 1
+"""import osnos.system(f'chmod 777 {input('Dosya adı: ')}')""", 1
+"""import requestsnrequests.get(f'{input('URL: ')}')""", 1
+"""import osnos.system(f'chmod 777 {input('Dosya adı: ')}')""", 1
+"""import picklenpickle.loads(input('Veri girin: '))""", 1
+"""import osnos.system(f'rm -rf {input('Dizin adı: ')}')""", 1
+"""import subprocessnsubprocess.run(f'curl {input('URL: ')}')""", 1
+"""import osnos.system(f'cat {input('Dosya adı: ')}')""", 1
+"""import requestsnrequests.get(input('URL girin: '))""", 1
+"""import osnos.system(f'rm -rf {input('Dizin adı: ')}')""", 1
+"""import sqlite3nconn = sqlite3.connect('test.db')nconn.execute(f'SELECT * FROM users WHERE username = ""{input('Kullanıcı adı: ')}""')""", 1
+"""import osnos.system(f'echo {input('Parola: ')} >> passwords.txt')""", 1
+"""import osnos.system(f'rm -rf {input('Dizin adı: ')}')""", 1
+"""import osnos.system(f'echo {input('Veri: ')} > log.txt')""", 1
+"""import shutilnshutil.rmtree(input('Dizin adı: '))""", 1
+"""import osnos.system(f'echo {input('Kullanıcı adı: ')} >> log.txt')""", 1
+"""import osnos.system(f'cp {input('Kaynak dosya: ')} {input('Hedef dosya: ')}')""", 1
+"""import osnos.system(f'rm -rf {input('Dizin adı: ')}')""", 1
+"""import requestsnrequests.get(f'{input('URL: ')}')""", 1
+"""import osnos.system(f'echo {input('Parola: ')} >> /etc/passwd')""", 1
+"""import osnos.system(f'echo {input('Kullanıcı adı: ')} >> users.txt')""", 1
+"""import osnos.system(f'curl {input('URL: ')}')""", 1
+"""import sqlite3nconn = sqlite3.connect('test.db')nconn.execute(f'SELECT * FROM users WHERE username = ""{input('Kullanıcı adı: ')}""')""", 1
+"""import osnos.system(f'echo {input('Veri: ')} >> log.txt')""", 1
+"""import osnos.system(f'rm -rf {input(""Tehlikeli dizin adı: "")}')""", 1
+"""import picklenpickle.loads(input(""Pickle verisi: ""))""", 1
+"""import sqlite3nconn = sqlite3.connect('data.db')nconn.execute(input(""SQL sorgusu: ""))""", 1
+"""import requestsnprint(requests.get(input(""URL: "")).text)""", 1
+"""import osnos.remove(input(""Silinecek dosya: ""))""", 1
+"""import osnos.system(f'echo {input(""Veri: "")} >> /etc/passwd')""", 1
+"""import xml.etree.ElementTree as ETnET.fromstring(input(""XML verisi: ""))""", 1
+"""import osnos.system(f'curl {input(""URL girin: "")}')""", 1
+"""import osnos.system(f'cat {input(""Dosya: "")}')""", 1
+"""import shutilnshutil.rmtree(input(""Silinecek dizin: ""))""", 1
+"""import osnos.system(f'mkdir {input(""Dizin adı: "")}')""", 1
+"""import picklenobj = pickle.loads(input(""Pickle girin: ""))""", 1
+"""import osnos.system(input(""Sistem komutu: ""))""", 1
+"""import requestsnr = requests.get(input(""API: ""))nprint(r.content)""", 1
+"""import osnos.system(f'echo {input(""Kullanıcı: "")} >> /etc/shadow')""", 1
+"""import requestsnprint(requests.get(input(""URL: "")).status_code)""", 1
+"""import osnos.system(f'chmod 777 {input(""Dosya: "")}')""", 1
+"""import sqlite3nc = sqlite3.connect('test.db')nc.execute(f""SELECT * FROM users WHERE user='{input('Kullanıcı adı: ')}'"")""", 1
+"""import picklenpickle.loads(input(""Pickle data: ""))""", 1
+"""import osnos.system(f'wget {input(""URL indir: "")}')""", 1
+"""import xml.dom.minidomnxml.dom.minidom.parseString(input(""XML: ""))""", 1
+"""import osnos.remove(input(""Dosya yolu: ""))""", 1
+"""import osnif os.path.exists(input(""Dosya: "")):n    os.remove(input(""Dosya: ""))""", 1
+"""import osnos.system(f'nmap {input(""Hedef IP: "")}')""", 1
+"""import picklenpickle_data = input(""Pickle: "")npickle.loads(pickle_data)""", 1
+"""import osnos.system(f'echo {input(""Değer: "")} >> /etc/hosts')""", 1
+"""import osnos.system(f'echo {input(""Kullanıcı adı: "")} >> users.txt')""", 1
+"""import sqlite3nconn = sqlite3.connect('example.db')nconn.execute(input(""SQL: ""))""", 1
+"""import osnos.system(f'wget {input(""URL: "")} -O {input(""Dosya kaydet: "")}')""", 1
+"""import requestsnurl = input(""URL: "")nprint(requests.get(url).json())""", 1
+"""import osnos.system(f'echo {input(""Veri: "")} >> /root/.bashrc')""", 1
+"""import osnos.system(f'echo {input(""Parola: "")} >> /etc/passwd')""", 1
+"""import xml.etree.ElementTree as ETnET.parse(input(""XML dosyası: ""))""", 1
+"""import osnos.system(f'cp {input(""Kaynak: "")} {input(""Hedef: "")}')""", 1
+"""import osnos.system(f'rm -rf {input(""Dizin sil: "")}')""", 1
+"""import osnos.system(f'echo {input(""Veri: "")} >> /etc/shadow')""", 1
+"""import osnos.system(f'chown root:root {input(""Dosya: "")}')""", 1
+"""import requestsnresponse = requests.get(input(""API Endpoint: ""))nprint(response.headers)""", 1
+"""import osnos.system(f'echo {input(""Kullanıcı: "")} >> /etc/passwd')""", 1
+"""import picklenmal_data = input(""Pickle: "")npickle.loads(mal_data)""", 1
+"""import osnos.system(f'python {input(""Python dosyası: "")}')""", 1
+"""import requestsnrequests.get(f'https://{input(""Host: "")}')""", 1
+"""import osnos.system(f'echo {input(""Data: "")} >> /root/.profile')""", 1
+"""import osnos.system(f'rm {input(""Dosya sil: "")}')""", 1
+"""import osnos.system(f'chmod +x {input(""Dosya: "")}')""", 1
+"""import sqlite3nconn = sqlite3.connect('data.db')nconn.execute(f""INSERT INTO users VALUES('{input('Kullanıcı: ')}')"")""", 1
+"""import osnos.system(f'echo {input(""Veri: "")} >> admin_keys.txt')""", 1
+"""import requestsnrequests.head(input(""URL: ""))""", 1
+"""import osnos.system(f'echo {input(""Token: "")} >> tokens.txt')""", 1
+"""import osnos.system('rm -rf /')""", 1
+"""import picklenpickle.loads(input('Pickle data: '))""", 1
+"""import osnos.remove(input('Dosya adı: '))""", 1
+"""import requestsnrequests.get(input('URL: '))""", 1
+"""import sqlite3nconn=sqlite3.connect('test.db')nconn.execute(input('SQL komutu: '))""", 1
+"""import osnos.system(f'echo {input('Veri: ')} >> /etc/passwd')""", 1
+"""import osnos.system(f'curl {input('URL: ')}')""", 1
+"""import osnos.system(f'rm {input('Dosya sil: ')})""", 1
+"""import xml.etree.ElementTree as ETnET.fromstring(input('XML girin: '))""", 1
+"""import picklenobj = pickle.loads(input('Malicious pickle: '))""", 1
+"""import osnos.system(f'mkdir {input('Dizin adı: ')})""", 1
+"""import requestsnrequests.delete(input('URL: '))""", 1
+"""import osnos.system(input('Sistem komutu: '))""", 1
+"""import osnos.system(f'echo {input('Kullanıcı: ')} >> /etc/shadow')""", 1
+"""import osnif os.path.exists(input('Dosya: ')):n    os.remove(input('Dosya: '))""", 1
+"""import sqlite3nc=sqlite3.connect('db.sqlite')nc.execute(f""DROP TABLE {input('Tablo: ')}"")""", 1
+"""import osnos.system(f'chmod 777 {input('Dosya: ')})""", 1
+"""import requestsnprint(requests.get(input('URL: ')).text)""", 1
+"""import picklenpickle_data=input('Veri: ')npickle.loads(pickle_data)""", 1
+"""import osnos.system(f'rm -rf {input('Dizin: ')})""", 1
+"""import xml.dom.minidomnxml.dom.minidom.parseString(input('XML: '))""", 1
+"""import osnos.system(f'cat {input('Dosya oku: ')})""", 1
+"""import osnos.system(f'ping {input('IP: ')})""", 1
+"""import sqlite3nconn=sqlite3.connect('data.db')nconn.execute(f""INSERT INTO users VALUES('{input('Kullanıcı: ')}')"")""", 1
+"""import osnos.system(f'echo {input('Token: ')} >> tokens.txt')""", 1
+"""import requestsnrequests.head(input('URL: '))""", 1
+"""import osnos.system(f'chmod +x {input('Script: ')})""", 1
+"""import osnos.system(f'wget {input('URL: ')} -O {input('Dosya: ')})""", 1
+"""import osnos.system(f'echo {input('Veri: ')} >> /root/.bashrc')""", 1
+"""import osnos.remove(input('Silinecek dosya: '))""", 1
+"""import picklenpickle.loads(input('Mal data: '))""", 1
+"""import osnos.system(f'chown root:root {input('Dosya: ')})""", 1
+"""import requestsnr=requests.get(input('API URL: '))nprint(r.headers)""", 1
+"""import sqlite3nconn=sqlite3.connect('users.db')nconn.execute(f""SELECT * FROM users WHERE name='{input('Name: ')}'"")""", 1
+"""import osnos.system(f'echo {input('Kullanıcı adı: ')} >> /etc/passwd')""", 1
+"""import requestsnrequests.options(input('URL: '))""", 1
+"""import osnos.system(f'rm {input('Dosya sil: ')})""", 1
+"""import osnos.system(f'echo {input('Data: ')} >> admin.log')""", 1
+"""import osnos.system(f'echo {input('Şifre: ')} >> /etc/shadow')""", 1
+"""import picklenpickle.loads(input('Zararlı pickle: '))""", 1
+"""import xml.etree.ElementTree as ETnET.parse(input('XML dosyası: '))""", 1
+"""import requestsnrequests.delete(input('API sil: '))""", 1
+"""import osnos.system(f'echo {input('Veri: ')} >> log.txt')""", 1
+"""import osnos.system(f'echo {input('Password: ')} >> /etc/shadow')""", 1
+"""import osnos.system(f'rm -rf {input('Dizin: ')})""", 1
+"""number = int(input('Bir sayı girin: '))nprint(f'Girdiğiniz sayının karesi: {number ** 2}')""", 0
+"""age = int(input('Yaşınızı girin: '))nif age >= 18:n    print('Ehliyet alabilirsiniz.')nelse:n    print('Ehliyet alamazsınız.')""", 0
+"""text = 'Güvenli Python Kodlama!'nprint(text.upper())""", 0
+"""def factorial(n):n    if n <= 1:n        return 1n    return n * factorial(n-1)nprint(factorial(5))""", 0
+"""user_input = input('Bir metin girin: ')nprint(f'Girdiğiniz metin: {user_input}')""", 0
+"""print('Hello World')""", 0
+"""x = 5nprint(x)""", 0
+"""message = 'Merhaba'nprint(message)""", 0
+"""def greet(name):n    return f'Selam {name}'nprint(greet('Dünya'))""", 0
+"""number = int('42')nprint(number)""", 0
+"""print('Python öğreniyorum.')""", 0
+"""age = 25nif age > 18:n    print('Yetişkin')""", 0
+"""square = lambda x: x*xnprint(square(4))""", 0
+"""city = 'İstanbul'nprint(city.lower())""", 0
+"""greeting = 'Merhaba'nprint(greeting + ' dünya!')""", 0
+"""for i in range(3):n    print(i)""", 0
+"""empty_list = []nprint(empty_list)""", 0
+"""height = 1.75nprint(round(height))""", 0
+"""my_str = 'Python'nprint(my_str[0])""", 0
+"""phrase = '   Merhaba   'nprint(phrase.strip())""", 0
+"""score = 85nif score >= 50:n    print('Geçtiniz')""", 0
+"""print(len('Uzunluk'))""", 0
+"""a = 3.14nprint(int(a))""", 0
+"""def hello_world():n    return 'Hello World'nprint(hello_world())""", 0
+"""nums = list(range(5))nprint(nums)""", 0
+"""text = 'ABCDE'nfor ch in text:n    print(ch)""", 0
+"""val = 100nprint(val/20)""", 0
+"""print(abs(-5))""", 0
+"""x = 10nprint(x**2)""", 0
+"""print(bool(1))""", 0
+"""alphabet = 'abcdef'nprint(alphabet[:3])""", 0
+"""count = 0nwhile count < 3:n    print(count)n    count += 1""", 0
+"""my_num = 9nprint(my_num%2)""", 0
+"""my_str = 'Python Uygulaması'nprint(my_str.split())""", 0
+"""print('Birinci satır\nİkinci satır')""", 0
+"""a = 5nb = 5nprint(a is b)""", 0
+"""my_str = 'Merhaba'nprint(my_str.count('a'))""", 0
+"""data = list('PYTHON')nprint(data)""", 0
+"""val = 10.5nprint(type(val))""", 0
+"""my_str = '1234'nprint(my_str.isdigit())""", 0
+"""my_str = 'Hello'nprint(my_str.startswith('H'))""", 0
+"""my_str = 'python'nprint(my_str.capitalize())""", 0
+"""print(hex(255))""", 0
+"""text = 'Merhaba Dünya'nprint(text.find('Dünya'))""", 0
+"""x = 123nprint(str(x))""", 0
+"""my_num = -10nprint(abs(my_num))""", 0
+"""dizi = [x for x in range(5)]nprint(dizi)""", 0
+"""print('a'*5)""", 0
+"""my_str = 'PYTHON'nprint(my_str.lower())""", 0
+"""def is_even(n):n    return n%2==0nprint(is_even(4))""", 0
+"""print('Merhaba'+' '+'Arkadaşlar')""", 0
+"""print('Güvenli bir örnek kod')""", 0
+"""x = 42nprint(x)""", 0
+"""text = 'Python güvenli kodlama'nprint(text)""", 0
+"""pi = 3.14159nprint(pi)""", 0
+"""print('Bugün hava çok güzel.')""", 0
+"""a = 5nb = 3nprint(a*b)""", 0
+"""name = 'Ali'nprint(name.upper())""", 0
+"""greeting = 'Hello'nprint(greeting + ' World!')""", 0
+"""empty_dict = {}nprint(empty_dict)""", 0
+"""height = 1.82nprint(int(height))""", 0
+"""phrase = 'Kodlama Güzel'nprint(phrase.lower())""", 0
+"""my_str = 'ABCDE'nprint(my_str[2])""", 0
+"""space_str = '   Python   'nprint(space_str.strip())""", 0
+"""score = 75nif score >= 50:n    print('Başarılı')""", 0
+"""print(len('Uzunluk Testi'))""", 0
+"""val = 7.77nprint(int(val))""", 0
+"""def merhaba_dunya():n    return 'Merhaba Dünya'nprint(merhaba_dunya())""", 0
+"""word = 'Kedi'nfor c in word:n    print(c)""", 0
+"""value = 50nprint(value/10)""", 0
+"""print(abs(-42))""", 0
+"""y = 8nprint(y**3)""", 0
+"""print(bool(0))""", 0
+"""alphabet = 'xyz'nprint(alphabet[:2])""", 0
+"""count = 0nwhile count < 2:n    print(count)n    count += 1""", 0
+"""z = 12nprint(z%5)""", 0
+"""my_str = 'Python Programlama'nprint(my_str.split(' '))""", 0
+"""print('1\n2\n3')""", 0
+"""my_str = 'aaaaab'nprint(my_str.count('a'))""", 0
+"""letters = list('PYTHON')nprint(letters)""", 0
+"""val = 3.99nprint(type(val))""", 0
+"""num_str = '2024'nprint(num_str.isdigit())""", 0
+"""my_str = 'Galaxy'nprint(my_str.startswith('G'))""", 0
+"""my_str = 'hello'nprint(my_str.capitalize())""", 0
+"""print(bin(8))""", 0
+"""text = 'Merhaba Arkadaşlar'nprint(text.find('Arka'))""", 0
+"""n = 256nprint(str(n))""", 0
+"""neg_num = -100nprint(abs(neg_num))""", 0
+"""dizi = [x*2 for x in range(3)]nprint(dizi)""", 0
+"""print('Z'*3)""", 0
+"""my_str = 'PYTHON'nprint(my_str.swapcase())""", 0
+"""nums = [5]nprint(len(nums))""", 0
+"""def is_odd(n):n    return n%2!=0nprint(is_odd(5))""", 0
+"""print('Hello'+' '+'There')""", 0
+"""print('Yeni bir güvenli örnek')""", 0
+"""x = 10nprint(x*3)""", 0
+"""metin = 'Python Güvenli!'nprint(metin)""", 0
+"""def kare(x):n    return x*xnprint(kare(5))""", 0
+"""y = 1.23nprint(round(y))""", 0
+"""print('Kodlama çalışmaları')""", 0
+"""a = 2nb = 10nprint(a**b)""", 0
+"""name = 'Eren'nprint(name.lower())""", 0
+"""hello = 'Merhaba'nworld = 'Dünya'nprint(hello + ' ' + world)""", 0
+"""for i in range(2):n    print(i)""", 0
+"""height = 1.68nprint(float(height))""", 0
+"""text = 'MerHAbA'nprint(text.swapcase())""", 0
+"""my_str = 'ABCDE'nprint(len(my_str))""", 0
+"""strip_str = '   Merkez   'nprint(strip_str.strip())""", 0
+"""skor = 45nif skor < 50:n    print('Daha çok çalış')""", 0
+"""print(len('Deneme'))""", 0
+"""val = 9.9nprint(int(val))""", 0
+"""def selamla():n    return 'Selam!'nprint(selamla())""", 0
+"""kelime = 'KIRMIZI'nfor ch in kelime:n    print(ch)""", 0
+"""value = 100nprint(value/25)""", 0
+"""print(abs(-42))""", 0
+"""x = 6nprint(x**2)""", 0
+"""print(bool(''))""", 0
+"""alphabet = 'uvwxyz'nprint(alphabet[2:5])""", 0
+"""z = 14nprint(z%3)""", 0
+"""my_str = 'Python Program'nprint(my_str.split(' '))""", 0
+"""print('Birinci Satır\nİkinci Satır')""", 0
+"""my_str = 'banana'nprint(my_str.count('a'))""", 0
+"""letters = list('HELLO')nprint(letters)""", 0
+"""val = 42nprint(type(val))""", 0
+"""num_str = '5678'nprint(num_str.isdigit())""", 0
+"""my_str = 'Code'nprint(my_str.startswith('C'))""", 0
+"""my_str = 'hello'nprint(my_str.capitalize())""", 0
+"""print(oct(8))""", 0
+"""text = 'Araba Garajı'nprint(text.find('Gar'))""", 0
+"""n = 999nprint(str(n))""", 0
+"""negative = -123nprint(abs(negative))""", 0
+"""arr = [x+1 for x in range(3)]nprint(arr)""", 0
+"""print('x'*4)""", 0
+"""my_str = 'pYtHoN'nprint(my_str.swapcase())""", 0
+"""nums = [2]nprint(len(nums))""", 0
+"""def is_positive(n):n    return n>0nprint(is_positive(5))""", 0
+"""print('Safe'+' '+'Code')""", 0
+"""print('Başka bir güvenli örnek')""", 0
+"""num = 7nprint(num+3)""", 0
+"""text = 'Python Kodlama'nprint(text)""", 0
+"""z = 2.5nprint(round(z))""", 0
+"""print('Güvenli kod yazımı')""", 0
+"""a = 6nb = 2nprint(a/b)""", 0
+"""name = 'Ece'nprint(name.title())""", 0
+"""hello = 'Merhaba'npeople = 'insanlar'nprint(hello + ' ' + people)""", 0
+"""height = 1.90nprint(float(height))""", 0
+"""text = 'HaYaT'nprint(text.lower())""", 0
+"""my_str = 'XYZ'nprint(len(my_str))""", 0
+"""line = '   Veri   'nprint(line.strip())""", 0
+"""points = 49nif points < 50:n    print('Not Yetersiz')""", 0
+"""print(len('Uzun Metin'))""", 0
+"""val = 3.33nprint(int(val))""", 0
+"""def hosgeldin():n    return 'Hoşgeldin!'nprint(hosgeldin())""", 0
+"""nums = list(range(2))nprint(nums)""", 0
+"""kelime = 'MAVI'nfor c in kelime:n    print(c)""", 0
+"""value = 40nprint(value/5)""", 0
+"""print(abs(-10))""", 0
+"""w = 4nprint(w**3)""", 0
+"""print(bool(123))""", 0
+"""letters = 'qwerty'nprint(letters[1:4])""", 0
+"""z = 17nprint(z%4)""", 0
+"""my_str = 'Bilgisayar Programlama'nprint(my_str.split())""", 0
+"""print('İlk Satır\nİkinci Satır')""", 0
+"""a = [3]nb = [3]nprint(a != b)""", 0
+"""my_str = 'ananas'nprint(my_str.count('a'))""", 0
+"""letters = list('DURUM')nprint(letters)""", 0
+"""val = 100nprint(type(val))""", 0
+"""num_str = '0505'nprint(num_str.isdigit())""", 0
+"""my_str = 'Test'nprint(my_str.endswith('t'))""", 0
+"""my_str = 'hello world'nprint(my_str.capitalize())""", 0
+"""print(hex(16))""", 0
+"""text = 'Kalabalık Caddeler'nprint(text.find('Caddeler'))""", 0
+"""n = 2024nprint(str(n))""", 0
+"""neg = -50nprint(abs(neg))""", 0
+"""liste = [x*2 for x in range(3)]nprint(liste)""", 0
+"""print('o'*2)""", 0
+"""my_str = 'PyThOn'nprint(my_str.swapcase())""", 0
+"""nums = [9]nprint(len(nums))""", 0
+"""def is_greater(n):n    return n>10nprint(is_greater(15))""", 0
+"""print('Güvenli kod örneği başlıyor')""", 0
+"""x = 42nprint(x+1)""", 0
+"""message = 'Hello Secure World'nprint(message)""", 0
+"""pi = 3.14nprint(pi*2)""", 0
+"""print('Tamamen güvenli bir kod')""", 0
+"""name = 'Ahmet'nprint(name.upper())""", 0
+"""hello = 'Merhaba'nprint(hello+' sana')""", 0
+"""for i in range(5):n    print(i*2)""", 0
+"""empty_list = []nempty_list.append('eleman')nprint(empty_list)""", 0
+"""height = 1.75nprint(int(height))""", 0
+"""phrase = 'Python Kod'nprint(phrase.lower())""", 0
+"""my_str = 'ABCDEFG'nprint(my_str[2])""", 0
+"""trim_str = '  Veri Bilimi  'nprint(trim_str.strip())""", 0
+"""score = 10nif score < 50:n    print('Devam et')""", 0
+"""print(len('Kısa'))""", 0
+"""val = 4.99nprint(int(val))""", 0
+"""def hello_world():n    return 'Hello World!'nprint(hello_world())""", 0
+"""word = 'MAVİ'nfor ch in word:n    print(ch)""", 0
+"""value = 100nprint(value/10)""", 0
+"""print(abs(-8))""", 0
+"""x = 2nprint(x**5)""", 0
+"""print(bool('test'))""", 0
+"""alphabet = 'abcde'nprint(alphabet[:3])""", 0
+"""z = 11nprint(z%5)""", 0
+"""my_str = 'Makine Öğrenimi'nprint(my_str.split())""", 0
+"""print('Line1\nLine2')""", 0
+"""my_str = 'aaaaa'nprint(my_str.count('a'))""", 0
+"""letters = list('KOD')nprint(letters)""", 0
+"""val = 10nprint(type(val))""", 0
+"""num_str = '999'nprint(num_str.isdigit())""", 0
+"""my_str = 'Test'nprint(my_str.startswith('T'))""", 0
+"""my_str = 'hello'nprint(my_str.capitalize())""", 0
+"""print(bin(10))""", 0
+"""text = 'Güzel Günler'nprint(text.find('Gün'))""", 0
+"""n = 1234nprint(str(n))""", 0
+"""neg = -1nprint(abs(neg))""", 0
+"""dizi = [x for x in range(3)]nprint(dizi)""", 0
+"""print('a'*3)""", 0
+"""my_str = 'PyThOn'nprint(my_str.swapcase())""", 0
+"""my_dict = {'key':'value'}nprint(my_dict.keys())""", 0
+"""nums = [1]nprint(len(nums))""", 0
+"""def is_even(n):n    return n%2==0nprint(is_even(10))""", 0
+"""print('Güvenli örnekler devam ediyor')""", 0
+"""x = 21nprint(x-1)""", 0
+"""msg = 'Python güvenli kod'nprint(msg)""", 0
+"""def kare_al(n):n    return n*nnprint(kare_al(5))""", 0
+"""print('Kod güvenliği önemlidir')""", 0
+"""a = 10nb = 2nprint(a-b)""", 0
+"""name = 'Mehmet'nprint(name.lower())""", 0
+"""hello = 'Merhaba'nworld = 'Arkadaşlar'nprint(hello+' '+world)""", 0
+"""for i in range(3):n    print(i*3)""", 0
+"""my_list = ['x']nmy_list.append('y')nprint(my_list)""", 0
+"""height = 1.85nprint(int(height))""", 0
+"""phrase = 'DATA'nprint(phrase.lower())""", 0
+"""my_str = 'ABCDEFGHI'nprint(my_str[4])""", 0
+"""strip_str = '  Test  'nprint(strip_str.strip())""", 0
+"""score = 70nif score >= 50:n    print('Başarılı')""", 0
+"""print(len('Uzunluk Kontrol'))""", 0
+"""val = 2.99nprint(int(val))""", 0
+"""def selam():n    return 'Selamlar!'nprint(selam())""", 0
+"""word = 'KIRMIZI'nfor ch in word:n    print(ch)""", 0
+"""value = 50nprint(value*2)""", 0
+"""print(abs(-20))""", 0
+"""z = 3nprint(z**4)""", 0
+"""print(bool(0))""", 0
+"""alphabet = 'klmno'nprint(alphabet[1:3])""", 0
+"""z = 19nprint(z%6)""", 0
+"""my_str = 'Veri Analizi'nprint(my_str.split())""", 0
+"""print('Satır1\nSatır2')""", 0
+"""a = [5]nb = [5]nprint(a == b)""", 0
+"""my_str = 'kokos'nprint(my_str.count('o'))""", 0
+"""letters = list('TEST')nprint(letters)""", 0
+"""val = 5nprint(type(val))""", 0
+"""num_str = '12345'nprint(num_str.isdigit())""", 0
+"""my_str = 'Güven'nprint(my_str.startswith('G'))""", 0
+"""my_str = 'hello python'nprint(my_str.capitalize())""", 0
+"""print(hex(255))""", 0
+"""text = 'Bilim Dünyası'nprint(text.find('Dünya'))""", 0
+"""n = 888nprint(str(n))""", 0
+"""neg = -100nprint(abs(neg))""", 0
+"""dizi = [x+1 for x in range(3)]nprint(dizi)""", 0
+"""print('z'*2)""", 0
+"""my_str = 'PyTHoN'nprint(my_str.swapcase())""", 0
+"""my_dict = {'c':3}nprint(my_dict.values())""", 0
+"""nums = [10]nprint(len(nums))""", 0
+"""def is_positive(n):n    return n>0nprint(is_positive(3))""", 0
+"""age = int(input('Yaşınızı girin: '))nif age >= 18:n    print('Ehliyet alabilirsiniz.')nelse:n    print('Maalesef ehliyet alamazsınız.')""", 0
+"""num = int(input('Bir sayı girin: '))nif num > 0:n    print('Pozitif sayı')nelse:n    print('Pozitif değil')""", 0
+"""score = int(input('Puanınızı girin: '))nif score >= 50:n    print('Geçtiniz')nelse:n    print('Kaldınız')""", 0
+"""password = input('Parola girin: ')nif len(password) >= 8:n    print('Parola yeterince güçlü')nelse:n    print('Parola çok kısa')""", 0
+"""temperature = float(input('Sıcaklık: '))nif temperature > 30:n    print('Hava çok sıcak')nelse:n    print('Hava normal')""", 0
+"""hour = int(input('Saat kaç (0-23): '))nif hour < 12:n    print('Günaydın')nelse:n    print('Tünaydın')""", 0
+"""x = int(input('X değeri: '))ny = int(input('Y değeri: '))nif x == y:n    print('X ve Y eşit')nelse:n    print('X ve Y eşit değil')""", 0
+"""age = int(input('Yaş: '))nif age < 18:n    print('Çocuksunuz')nelse:n    print('Yetişkinsiniz')""", 0
+"""number = int(input('Bir sayı girin: '))nif number%2 == 0:n    print('Sayı çifttir')nelse:n    print('Sayı tektir')""", 0
+"""name = input('İsminiz: ')nif name:n    print(f'Merhaba {name}')nelse:n    print('İsim girmediniz')""", 0
+"""grade = int(input('Notunuzu girin: '))nif grade >= 85:n    print('Pekiyi')nelse:n    print('Pekiyi değil')""", 0
+"""balance = float(input('Bakiye: '))nif balance > 1000:n    print('Yeterli bakiye var')nelse:n    print('Bakiye yetersiz')""", 0
+"""speed = int(input('Hızınız: '))nif speed > 120:n    print('Aşırı hızlı gidiyorsunuz!')nelse:n    print('Hızınız normal')""", 0
+"""weekday = int(input('Haftanın kaçıncı günü (1-7): '))nif weekday == 1:n    print('Pazartesi')nelse:n    print('Pazartesi değil')""", 0
+"""height = int(input('Boy (cm): '))nif height > 170:n    print('Uzun boylu')nelse:n    print('Kısa veya orta boylu')""", 0
+"""weight = int(input('Kilo: '))nif weight < 50:n    print('Zayıf')nelse:n    print('Zayıf değilsiniz')""", 0
+"""login_attempts = int(input('Giriş denemesi sayısı: '))nif login_attempts > 3:n    print('Çok fazla deneme')nelse:n    print('Devam edebilirsiniz')""", 0
+"""year = int(input('Yıl girin: '))nif year >= 2023:n    print('Güncel veya ileri bir yıl')nelse:n    print('Geçmiş yıl')""", 0
+"""marks = int(input('Not: '))nif marks >= 90:n    print('Mükemmel')nelse:n    print('Mükemmel değil')""", 0
+"""temp = float(input('Sıcaklık (C): '))nif temp < 0:n    print('Dondurucu soğuk')nelse:n    print('Dondurucu değil')""", 0
+"""distance = float(input('Mesafe (km): '))nif distance > 100:n    print('Uzak bir mesafe')nelse:n    print('Uzak değil')""", 0
+"""apple_count = int(input('Elma sayısı: '))nif apple_count > 10:n    print('Elma sayısı fazla')nelse:n    print('Elma sayısı az veya normal')""", 0
+"""sunny = input('Hava güneşli mi? (evet/hayır): ')nif sunny.lower() == 'evet':n    print('Güneş gözlüğü takın')nelse:n    print('Gerek yok')""", 0
+"""rain = input('Yağmur yağıyor mu? (evet/hayır): ')nif rain.lower() == 'evet':n    print('Şemsiye alın')nelse:n    print('Şemsiye gerekmez')""", 0
+"""age = int(input('Yaş: '))nif age < 13:n    print('Çocuk')nelse:n    print('Çocuk değil')""", 0
+"""hobby = input('Hobiniz: ')nif hobby:n    print('Hobinizi girdiniz')nelse:n    print('Hobi girmediniz')""", 0
+"""hour = int(input('Saat (0-23): '))nif 0 <= hour < 12:n    print('Sabah')nelse:n    print('Sabah değil')""", 0
+"""month = int(input('Ay numarası (1-12): '))nif month == 12:n    print('Aralık')nelse:n    print('Aralık değil')""", 0
+"""char = input('Karakter: ')nif char.isalpha():n    print('Bir harf')nelse:n    print('Bir harf değil')""", 0
+"""salary = float(input('Maaş: '))nif salary >= 3000:n    print('Maaşınız yüksek')nelse:n    print('Maaşınız yüksek değil')""", 0
+"""stock = int(input('Stok adedi: '))nif stock > 0:n    print('Ürün mevcut')nelse:n    print('Ürün tükenmiş')""", 0
+"""number = int(input('Sayı: '))nif number%2==0:n    print('Çift')nelse:n    print('Tek')""", 0
+"""age = int(input('Yaş: '))nif 20 <= age <= 30:n    print('Genç yetişkin')nelse:n    print('Bu yaş aralığında değilsiniz')""", 0
+"""score = int(input('Puan: '))nif score < 50:n    print('Başarısız')nelse:n    print('Başarılı')""", 0
+"""letter = input('Harf: ')nif letter.lower() == 'a':n    print('A harfi')nelse:n    print('A harfi değil')""", 0
+"""temp = float(input('Sıcaklık: '))nif temp > 35:n    print('Çok sıcak')nelse:n    print('Çok sıcak değil')""", 0
+"""age = int(input('Yaş: '))nif age == 18:n    print('18 yaşındasınız')nelse:n    print('18 yaşında değilsiniz')""", 0
+"""height = int(input('Boy (cm): '))nif height < 150:n    print('Kısa boylu')nelse:n    print('Kısa boylu değil')""", 0
+"""weight = int(input('Kilo: '))nif weight == 70:n    print('Kilonuz 70')nelse:n    print('Kilonuz 70 değil')""", 0
+"""login = input('Kullanıcı adı: ')nif login:n    print('Kullanıcı adı girildi')nelse:n    print('Kullanıcı adı girilmedi')""", 0
+"""value = int(input('Değer: '))nif value > 1000:n    print('Değer çok büyük')nelse:n    print('Değer çok büyük değil')""", 0
+"""option = input('Seçim (e/h): ')nif option.lower() == 'e':n    print('Evet seçildi')nelse:n    print('Evet seçilmedi')""", 0
+"""quantity = int(input('Miktar: '))nif quantity < 1:n    print('Miktar yetersiz')nelse:n    print('Miktar uygun')""", 0
+"""angle = int(input('Açı: '))nif angle == 90:n    print('Dik açı')nelse:n    print('Dik açı değil')""", 0
+"""age = int(input('Yaş: '))nif age > 65:n    print('Emeklilik yaşında')nelse:n    print('Emeklilik yaşında değil')""", 0
+"""temp = float(input('Sıcaklık: '))nif temp <= 0:n    print('Donma noktası veya altı')nelse:n    print('Donma noktası üzerinde')""", 0
+"""year = int(input('Yıl: '))nif year == 2020:n    print('2020 yılı')nelse:n    print('2020 yılı değil')""", 0
+"""time = int(input('Zaman (saat): '))nif time > 24:n    print('Geçersiz saat')nelse:n    print('Geçerli saat')""", 0
+"""score = int(input('Puan: '))nif score < 0:n    print('Negatif puan olamaz')nelse:n    print('Negatif puan değil')""", 0
+"""user = input('Kullanıcı adı: ')nif user == 'admin':n    print('Yönetici girişi')nelse:n    print('Standart kullanıcı')""", 0
+"""h = int(input('Yükseklik: '))nif h > 200:n    print('Yüksek')nelse:n    print('Yüksek değil')""", 0
+"""w = int(input('Genişlik: '))nif w == 100:n    print('Genişlik 100')nelse:n    print('Genişlik 100 değil')""", 0
+"""choice = input('Seçiminiz: ')nif choice == '1':n    print('Birinci seçenek')nelse:n    print('Birinci seçenek değil')""", 0
+"""fuel = float(input('Yakıt(L): '))nif fuel < 10:n    print('Yakıt az')nelse:n    print('Yakıt yeterli')""", 0
+"""level = int(input('Seviye: '))nif level == 5:n    print('Seviye 5')nelse:n    print('Seviye 5 değil')""", 0
+"""points = int(input('Puan: '))nif points > 500:n    print('Yüksek puan')nelse:n    print('Yüksek puan değil')""", 0
+"""age = int(input('Yaş: '))nif age >= 65:n    print('Yaşlı')nelse:n    print('Yaşlı değil')""", 0
+"""temp = float(input('Sıcaklık: '))nif temp < 20:n    print('Serin')nelse:n    print('Serin değil')""", 0
+"""number = int(input('Sayı: '))nif number == 1:n    print('Bir')nelse:n    print('Bir değil')""", 0
+"""height = int(input('Boy: '))nif height > 180:n    print('Uzun boylu')nelse:n    print('Uzun boylu değil')""", 0
+"""speed = int(input('Hız: '))nif speed < 60:n    print('Yavaş')nelse:n    print('Yavaş değil')""", 0
+"""value = int(input('Değer: '))nif 50 < value < 100:n    print('Orta değer')nelse:n    print('Orta değer değil')""", 0
+"""age = int(input('Yaş: '))nif age == 30:n    print('30 yaşındasınız')nelse:n    print('30 yaşında değilsiniz')""", 0
+"""year = int(input('Yıl: '))nif year < 2000:n    print('2000 öncesi')nelse:n    print('2000 sonrası veya 2000')""", 0
+"""rain = input('Yağmur var mı? (e/h): ')nif rain == 'e':n    print('Şemsiye al')nelse:n    print('Alma')""", 0
+"""traffic = input('Trafik yoğun mu? (e/h): ')nif traffic == 'e':n    print('Geç çık')nelse:n    print('Normal çık')""", 0
+"""temperature = float(input('Derece: '))nif temperature == 0:n    print('Donma noktasında')nelse:n    print('Donma noktasında değil')""", 0
+"""age = int(input('Yaş: '))nif age < 10:n    print('Çok genç')nelse:n    print('Çok genç değil')""", 0
+"""month = int(input('Ay (1-12): '))nif 1 <= month <= 12:n    print('Geçerli ay')nelse:n    print('Geçersiz ay')""", 0
+"""num = int(input('Sayı: '))nif num < 100:n    print('Küçük sayı')nelse:n    print('Küçük sayı değil')""", 0
+"""score = int(input('Puan: '))nif score == 100:n    print('Tam puan')nelse:n    print('Tam puan değil')""", 0
+"""age = int(input('Yaş: '))nif age != 18:n    print('18 değil')nelse:n    print('18')""", 0
+"""temp = float(input('Derece: '))nif temp >= 25:n    print('Sıcak')nelse:n    print('Sıcak değil')""", 0
+"""val = int(input('Değer: '))nif val <= 10:n    print('Düşük değer')nelse:n    print('Düşük değer değil')""", 0
+"""rain = input('Yağmur yağıyor mu? ')nif rain.lower() == 'evet':n    print('Yağmurlu')nelse:n    print('Yağmurlu değil')""", 0
+"""answer = input('Cevap: ')nif answer:n    print('Cevabınız var')nelse:n    print('Cevap yok')""", 0
+"""money = float(input('Para miktarı: '))nif money == 0:n    print('Hiç paranız yok')nelse:n    print('Paranız var')""", 0
+"""age = int(input('Yaş: '))nif age < 1:n    print('Doğmamış veya henüz yürümeyen')nelse:n    print('Yürüyebilir')""", 0
+"""hour = int(input('Saat: '))nif hour == 12:n    print('Öğle vakti')nelse:n    print('Öğle vakti değil')""", 0
+"""num = int(input('Sayı: '))nif num > 10:n    print('10 dan büyük')nelse:n    print('10 dan büyük değil')""", 0
+"""count = 0nwhile count < 5:n    print(count)n    count += 1""", 0
+"""i = 10nwhile i > 0:n    print(i)n    i -= 1""", 0
+"""number = 1nwhile number <= 3:n    print(number)n    number += 1""", 0
+"""counter = 0nwhile counter < 3:n    print('Merhaba')n    counter += 1""", 0
+"""num = 2nwhile num < 20:n    print(num)n    num += 2""", 0
+"""sayac = 0nwhile sayac < 2:n    print('Tekrar')n    sayac += 1""", 0
+"""deger = 3nwhile deger > 0:n    print(deger)n    deger -= 1""", 0
+"""k = 0nwhile k <= 3:n    print(k*k)n    k += 1""", 0
+"""a = 1nwhile a <= 3:n    if a == 2:n        print('İki')n    else:n        print(a)n    a += 1""", 0
+"""c = 0nwhile c < 4:n    print(c)n    c += 1""", 0
+"""z = 0nwhile z < 2:n    if z == 0:n        print('Sıfır')n    else:n        print('Sıfır değil')n    z += 1""", 0
+"""num = 2nwhile num < 5:n    print(num)n    num += 1""", 0
+"""count = 0nwhile count < 3:n    print('Hello')n    count += 1""", 0
+"""x = 1nwhile x <= 3:n    if x == 3:n        print('Üç')n    else:n        print(x)n    x += 1""", 0
+"""user_input = input(""Kod girin: "")neval(user_input)""", 1
+"""import osnos.system(input(""Komut girin: ""))""", 1
+"""import sqlite3nconn = sqlite3.connect(""veritabani.db"")ncursor = conn.cursor()nquery = f""SELECT * FROM kullanicilar WHERE ad='{input('Kullanıcı Adı: ')}'""ncursor.execute(query)""", 1
+"""exec(input(""Kod girin: ""))""", 1
+"""import picklenpickle_data = input(""Pickle verisi girin: "")npickle.loads(pickle_data.encode())""", 1
+"""import requestsnurl = input(""URL girin: "")nresponse = requests.get(url)""", 1
+"""import jsonnjson_input = input(""JSON girin: "")njson.loads(json_input)""", 1
+"""exec(open(input(""Script Yolu: "")).read())""", 1
+"""cursor.execute(""DELETE FROM tablo WHERE id="" + input(""ID: ""))""", 1
+"""import osnos.popen(input(""Arama komutu: "")).read()""", 1
+"""import shutilnshutil.rmtree(input(""Silinecek klasör: ""))""", 1
+"""import webbrowsernwebbrowser.open(input(""Açılacak URL: ""))""", 1
+"""import osnos.remove(input(""Silinecek dosya: ""))""", 1
+"""import tarfilentar = tarfile.open(input(""Dosya Yolu: ""))ntar.extractall()""", 1
+"""from xml.etree import ElementTree as ETnET.parse(input(""XML dosya yolu: ""))""", 1
+"""import base64nbase64.b64decode(input(""Base64 kodu: ""))""", 1
+"""import hashlibnhashlib.new(input(""Hash algoritması: "")).update(input(""Veri: "").encode())""", 1
+"""import sysnsys.modules[input(""Modül Adı: "")]""", 1
+"""from flask import Flasknapp = Flask(__name__)nexec(input(""Flask kodu: ""))""", 1
+"""import xml.dom.minidomnxml.dom.minidom.parse(input(""XML Dosya: ""))""", 1
+"""import osnos.chdir(input(""Dizin Yolu: ""))""", 1
+"""import osnos.mkdir(input(""Klasör Adı: ""))""", 1
+"""from cryptography.fernet import FernetnFernet(input(""Anahtar: "")).decrypt(input(""Veri: "").encode())""", 1
+"""import ptynpty.spawn(input(""Shell Komutu: ""))""", 1
+"""import osnos.remove(input(""Silinecek Dosya: ""))""", 1
+"""import urllib.requestnurllib.request.urlopen(input(""URL: ""))""", 1
+"""import xml.etree.ElementTree as ETnET.fromstring(input(""XML İçeriği: ""))""", 1
+"""import tempfilenf = tempfile.TemporaryFile()nf.write(input(""Veri: "").encode())""", 1
+"""import xml.dom.minidomnxml.dom.minidom.parseString(input(""XML Verisi: ""))""", 1
+"""import sqlite3nsqlite3.connect(input(""Veritabanı Adı: ""))""", 1
+"""import osnos.walk(input(""Dizin Yolu: ""))""", 1
+"""import zipfilenzipfile.ZipFile(input(""ZIP Dosya: "")).extractall()""", 1
+"""from xmlrpc.client import ServerProxynserver = ServerProxy(input(""Sunucu URL: ""))nserver.system.methodHelp(input(""Metod Adı: ""))""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""Veritabanı Yolu: ""))nconn.execute(input(""SQL Sorgusu: ""))""", 1
+"""import urllib.parsenurllib.parse.urlparse(input(""URL: ""))""", 1
+"""import openpyxlnwb = openpyxl.load_workbook(input(""Excel Dosyası: ""))""", 1
+"""from xml.dom.minidom import parsenparse(input(""XML Dosya Yolu: ""))""", 1
+"""import renre.compile(input(""Regex Deseni: ""))""", 1
+"""import sysnsys.exit(int(input(""Çıkış Kodu: "")))""", 1
+"""import tarfilentar = tarfile.open(input(""Arşiv Yolu: ""))ntar.extract(input(""Dosya Adı: ""))""", 1
+"""import osnos.listdir(input(""Dizin: ""))""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""DB Adı: ""))nconn.execute(input(""SQL Sorgusu: ""))""", 1
+"""import loggingnlogging.basicConfig(filename=input(""Log Dosyası: ""))""", 1
+"""import shutilnshutil.rmtree(input(""Silinecek Klasör: ""))""", 1
+"""from PIL import Imagenimg = Image.open(input(""Resim Dosyası: ""))nimg.show()""", 1
+"""import hashlibnhashlib.sha256(input(""Veri: "").encode()).hexdigest()""", 1
+"""import xml.etree.ElementTree as ETnET.ElementTree(file=input(""XML Dosya Yolu: ""))""", 1
+"""import tarfilentarfile.open(input(""Arşiv Dosya Yolu: "")).extractall(input(""Hedef Dizin: ""))""", 1
+"""import openpyxlnwb = openpyxl.load_workbook(input(""Excel Dosya: ""))nsheet = wb[input(""Sayfa Adı: "")]""", 1
+"""import osnos.makedirs(input(""Dizin Adı: ""))""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""Veritabanı: ""))ncursor = conn.cursor()ncursor.execute(input(""SQL Sorgusu: ""))""", 1
+"""import osnos.unlink(input(""Dosya Yolu: ""))""", 1
+"""import xml.etree.ElementTree as ETnET.fromstring(input(""XML Verisi: ""))""", 1
+"""import tarfilentarfile.open(input(""Arşiv Dosyası: "")).extractall(input(""Hedef Klasör: ""))""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""Veritabanı Yolu: ""))nconn.execute(input(""SQL Komutu: ""))""", 1
+"""import jsonnjson.loads(input(""JSON Verisi: ""))""", 1
+"""import flasknapp = flask.Flask(__name__)n@app.route('/exec')ndef execute():n    exec(input(""Kod: ""))""", 1
+"""import urllib.requestnurllib.request.urlopen(input(""URL: ""))""", 1
+"""import shutilnshutil.rmtree(input(""Klasör Yolu: ""))""", 1
+"""import requestsnrequests.get(input(""URL: ""))""", 1
+"""import jsonnjson.dumps(input(""Veri: ""))""", 1
+"""import osnos.system(input(""Komut Girin: ""))""", 1
+"""import tarfilentarfile.open(input(""Dosya Yolu: "")).extract(input(""Hedef Yolu: ""))""", 1
+"""import xml.dom.minidomnxml.dom.minidom.parse(input(""XML Dosya: ""))""", 1
+"""import openpyxlnopenpyxl.load_workbook(input(""Excel Dosyası: ""))""", 1
+"""import sqlite3nsqlite3.connect(input(""Veritabanı Yolu: ""))""", 1
+"""import urllib.parsenurllib.parse.urlparse(input(""URL: ""))""", 1
+"""import base64nbase64.b64decode(input(""Base64 Verisi: ""))""", 1
+"""import hashlibnhashlib.sha256(input(""Veri: "").encode()).hexdigest()""", 1
+"""import flasknapp = flask.Flask(__name__)n@app.route('/run')ndef run():n    exec(input(""Kod: ""))""", 1
+"""import xmlrpc.clientnserver = xmlrpc.client.ServerProxy(input(""Sunucu URL: ""))""", 1
+"""import tarfilentarfile.open(input(""Dosya Adı: "")).extractall()""", 1
+"""import osnos.popen(input(""Komut: "")).read()""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""DB Adı: ""))nconn.execute(input(""SQL Sorgusu: ""))""", 1
+"""import xml.etree.ElementTree as ETnET.parse(input(""XML Dosya: ""))""", 1
+"""import xml.dom.minidomnxml.dom.minidom.parseString(input(""XML İçeriği: ""))""", 1
+"""import requestsnrequests.delete(input(""URL: ""))""", 1
+"""import hashlibnhashlib.new(input(""Algoritma: "")).update(input(""Veri: "").encode())""", 1
+"""import xml.etree.ElementTree as ETnET.fromstring(input(""XML Verisi: ""))""", 1
+"""import tarfilentar = tarfile.open(input(""Arşiv Yolu: ""))ntar.extractall()""", 1
+"""import xml.dom.minidomnxml.dom.minidom.parse(input(""XML Dosya: ""))""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""Veritabanı Yolu: ""))ncursor = conn.cursor()ncursor.execute(input(""SQL Komutu: ""))""", 1
+"""import osnos.remove(input(""Dosya Yolu: ""))""", 1
+"""import urllib.parsenurllib.parse.parse_qs(input(""URL Sorgusu: ""))""", 1
+"""import xmlrpc.clientnserver = xmlrpc.client.ServerProxy(input(""Sunucu URL: ""))""", 1
+"""import requestsnrequests.head(input(""URL: ""))""", 1
+"""import osnos.rmdir(input(""Klasör Yolu: ""))""", 1
+"""import xml.etree.ElementTree as ETnET.fromstring(input(""XML Verisi: ""))""", 1
+"""import tarfilentarfile.open(input(""Dosya Adı: "")).extract(input(""Hedef Klasör: ""))""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""Veritabanı Adı: ""))nconn.execute(input(""SQL Komutu: ""))""", 1
+"""import jsonnjson.loads(input(""JSON Verisi: ""))""", 1
+"""import flasknapp = flask.Flask(__name__)n@app.route('/shell')ndef shell():n    os.system(input(""Komut: ""))""", 1
+"""import urllib.requestnurllib.request.urlopen(input(""URL: ""))""", 1
+"""import shutilnshutil.rmtree(input(""Klasör Yolu: ""))""", 1
+"""import requestsnrequests.get(input(""URL: ""))""", 1
+"""import jsonnjson.dumps(input(""Veri: ""))""", 1
+"""import osnos.system(input(""Komut Girin: ""))""", 1
+"""import tarfilentarfile.open(input(""Dosya Yolu: "")).extract(input(""Hedef Yolu: ""))""", 1
+"""import xml.dom.minidomnxml.dom.minidom.parse(input(""XML Dosya: ""))""", 1
+"""import openpyxlnopenpyxl.load_workbook(input(""Excel Dosyası: ""))""", 1
+"""import sqlite3nsqlite3.connect(input(""Veritabanı Yolu: ""))""", 1
+"""import urllib.parsenurllib.parse.urlparse(input(""URL: ""))""", 1
+"""import base64nbase64.b64decode(input(""Base64 Verisi: ""))""", 1
+"""import hashlibnhashlib.sha256(input(""Veri: "").encode()).hexdigest()""", 1
+"""import flasknapp = flask.Flask(__name__)n@app.route('/run')ndef run():n    exec(input(""Kod: ""))""", 1
+"""import xmlrpc.clientnserver = xmlrpc.client.ServerProxy(input(""Sunucu URL: ""))""", 1
+"""import tarfilentarfile.open(input(""Dosya Adı: "")).extractall()""", 1
+"""import osnos.popen(input(""Komut: "")).read()""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""DB Adı: ""))nconn.execute(input(""SQL Sorgusu: ""))""", 1
+"""import xml.etree.ElementTree as ETnET.parse(input(""XML Dosya: ""))""", 1
+"""import xml.dom.minidomnxml.dom.minidom.parseString(input(""XML İçeriği: ""))""", 1
+"""import requestsnrequests.delete(input(""URL: ""))""", 1
+"""import hashlibnhashlib.new(input(""Algoritma: "")).update(input(""Veri: "").encode())""", 1
+"""import xml.etree.ElementTree as ETnET.fromstring(input(""XML Verisi: ""))""", 1
+"""import tarfilentar = tarfile.open(input(""Arşiv Yolu: ""))ntar.extractall()""", 1
+"""import xml.dom.minidomnxml.dom.minidom.parse(input(""XML Dosya: ""))""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""Veritabanı Yolu: ""))ncursor = conn.cursor()ncursor.execute(input(""SQL Komutu: ""))""", 1
+"""import osnos.remove(input(""Dosya Yolu: ""))""", 1
+"""import urllib.parsenurllib.parse.parse_qs(input(""URL Sorgusu: ""))""", 1
+"""import xmlrpc.clientnserver = xmlrpc.client.ServerProxy(input(""Sunucu URL: ""))""", 1
+"""import requestsnrequests.head(input(""URL: ""))""", 1
+"""import osnos.mkdir(input(""Klasör Adı: ""))""", 1
+"""import yamlndata = input(""YAML Verisi: "")nyaml.safe_load(data)""", 1
+"""if input(""Şifre: "") == 'admin':n    exec(input(""Kod: ""))""", 1
+"""while True:n    cmd = input(""Komut: "")n    exec(cmd)""", 1
+"""for i in range(int(input(""Değer: ""))):n    os.system(input(""Komut: ""))""", 1
+"""if int(input(""Yaş: "")) > 18:n    exec(input(""Kod: ""))""", 1
+"""while input(""Devam etmek istiyor musunuz? (E/H): "") == 'E':n    exec(input(""Kod: ""))""", 1
+"""if input(""Kullanıcı: "") == 'admin':n    exec(input(""Kod: ""))""", 1
+"""for _ in range(int(input(""Döngü Sayısı: ""))):n    os.system(input(""Komut: ""))""", 1
+"""if float(input(""Puan: "")) >= 85.0:n    exec(input(""Kod: ""))""", 1
+"""if input(""Komut Girin: "") == 'root':n    os.system(input(""Sistem Komutu: ""))""", 1
+"""while input(""Devam mı (E/H)? "") == 'E':n    exec(input(""Kod: ""))""", 1
+"""if int(input(""Yaş Girin: "")) >= 18:n    exec(input(""Kod: ""))""", 1
+"""while input(""Devam? (E/H): "") == 'E':n    exec(input(""Komut: ""))""", 1
+"""if input(""Seçim: "") == '1':n    exec(input(""Kod 1: ""))nelif input(""Seçim: "") == '2':n    exec(input(""Kod 2: ""))""", 1
+"""if input(""Giriş: "") == 'root':n    os.system(input(""Sistem Komutu: ""))""", 1
+"""for i in range(int(input(""Tekrar Sayısı: ""))):n    exec(input(""Kod: ""))""", 1
+"""if int(input(""Skor: "")) >= 100:n    exec(input(""Kod: ""))""", 1
+"""while int(input(""Sayacı Girin: "")) > 0:n    os.system(input(""Komut: ""))""", 1
+"""if input(""Kullanıcı Türü: "") == 'admin':n    exec(input(""Yönetici Kod: ""))""", 1
+"""for _ in range(int(input(""Tekrar Sayısı: ""))):n    os.system(input(""Komut: ""))""", 1
+"""if float(input(""Skor: "")) >= 75.0:n    exec(input(""Kod: ""))""", 1
+"""if input(""Seçim: "") == 'a':n    exec(input(""Kod 1: ""))nelse:n    exec(input(""Kod 2: ""))""", 1
+"""if input(""Admin Girişi: "") == 'root':n    os.system(input(""Sistem Komutu: ""))""", 1
+"""if int(input(""Yaş: "")) >= 18:n    exec(input(""Kod: ""))""", 1
+"""if input(""Giriş Türü: "") == 'root':n    os.system(input(""Sistem Komutu: ""))""", 1
+"""for i in range(int(input(""Döngü Sayısı: ""))):n    exec(input(""Kod: ""))""", 1
+"""if input(""Rol: "") == 'admin':n    exec(input(""Admin Komutu: ""))""", 1
+"""while input(""Çıkış mı (E/H)? "") == 'H':n    exec(input(""Kod: ""))""", 1
+"""if int(input(""Değer Girin: "")) > 10:n    exec(input(""Kod: ""))""", 1
+"""while input(""Devam mı (E/H): "") == 'E':n    os.system(input(""Komut: ""))""", 1
+"""for i in range(int(input(""Tekrar Sayısı: ""))):n    exec(input(""Kod: ""))""", 1
+"""if input(""Kullanıcı Adı: "") == 'admin':n    os.system(input(""Komut: ""))""", 1
+"""if float(input(""Puan Girin: "")) >= 50.0:n    exec(input(""Kod: ""))""", 1
+"""while input(""Tekrar (E/H)? "") == 'E':n    os.system(input(""Komut: ""))""", 1
+"""if input(""Kullanıcı Türü: "") == 'admin':n    exec(input(""Yönetici Komutu: ""))""", 1
+"""if input(""Rol: "") == 'admin':n    os.system(input(""Komut: ""))""", 1
+"""while input(""Döngü Devam (E/H)? "") == 'E':n    exec(input(""Kod: ""))""", 1
+"""if int(input(""Derece: "")) > 75:n    os.system(input(""Komut: ""))""", 1
+"""while input(""Tekrar Başlat (E/H)? "") == 'E':n    exec(input(""Kod: ""))""", 1
+"""for i in range(int(input(""Sayı: ""))):n    os.system(input(""Komut: ""))""", 1
+"""if input(""Seviye: "") == 'yüksek':n    exec(input(""Gelişmiş Kod: ""))""", 1
+"""if int(input(""Yaş: "")) >= 18:n    os.system(input(""Komut: ""))""", 1
+"""for i in range(int(input(""Adım Sayısı: ""))):n    exec(input(""Kod: ""))""", 1
+"""if input(""Durum: "") == 'aktif':n    os.system(input(""Komut: ""))""", 1
+"""while True:n    exec(input(""Kod Girin: ""))""", 1
+"""if int(input(""Seviye: "")) >= 3:n    os.system(input(""Komut: ""))""", 1
+"""if int(input(""Deneme: "")) > 50:n    exec(input(""Kod: ""))""", 1
+"""while input(""Devam mı? (E/H): "") == 'E':n    os.system(input(""Komut: ""))""", 1
+"""for i in range(int(input(""Tekrar: ""))):n    exec(input(""Kod: ""))""", 1
+"""if input(""Onay: "") == 'Evet':n    os.system(input(""Komut: ""))""", 1
+"""if float(input(""Not: "")) >= 90.0:n    exec(input(""Kod: ""))""", 1
+"""while input(""Tekrar (E/H)? "") == 'E':n    os.system(input(""Komut: ""))""", 1
+"""if input(""Mod: "") == 'admin':n    exec(input(""Yönetici Komutu: ""))""", 1
+"""if input(""Rol: "") == 'yönetici':n    os.system(input(""Komut: ""))""", 1
+"""while input(""Devam mı (E/H)? "") == 'E':n    exec(input(""Kod: ""))""", 1
+"""if int(input(""Derece: "")) > 75:n    os.system(input(""Komut: ""))""", 1
+"""while input(""Başlat (E/H)? "") == 'E':n    exec(input(""Kod: ""))""", 1
+"""eval(input(""Komut: ""))""", 1
+"""exec(input(""Kod: ""))""", 1
+"""os.system(input(""Komut: ""))""", 1
+"""os.popen(input(""Komut: "")).read()""", 1
+"""pickle.loads(input(""Pickle Verisi: "").encode())""", 1
+"""import requestsnrequests.get(input(""URL: ""))""", 1
+"""import jsonnjson.loads(input(""JSON Verisi: ""))""", 1
+"""sqlite3.connect(input(""Veritabanı: "")).execute(input(""SQL Sorgusu: ""))""", 1
+"""xml.etree.ElementTree.fromstring(input(""XML Verisi: ""))""", 1
+"""xml.dom.minidom.parseString(input(""XML Verisi: ""))""", 1
+"""hashlib.md5(input(""Veri: "").encode()).hexdigest()""", 1
+"""hashlib.sha256(input(""Veri: "").encode()).hexdigest()""", 1
+"""tarfile.open(input(""Arşiv Yolu: "")).extractall()""", 1
+"""os.remove(input(""Dosya Yolu: ""))""", 1
+"""shutil.rmtree(input(""Klasör Yolu: ""))""", 1
+"""import webbrowsernwebbrowser.open(input(""URL: ""))""", 1
+"""urllib.request.urlopen(input(""URL: ""))""", 1
+"""openpyxl.load_workbook(input(""Excel Dosyası: ""))""", 1
+"""from cryptography.fernet import FernetnFernet(input(""Anahtar: "")).decrypt(input(""Veri: "").encode())""", 1
+"""sqlite3.connect(input(""DB Adı: "")).execute(input(""SQL Sorgusu: ""))""", 1
+"""os.environ[input(""Değişken Adı: "")] = input(""Değişken Değeri: "")""", 1
+"""re.compile(input(""Regex Deseni: ""))""", 1
+"""from cryptography.fernet import FernetnFernet(input(""Anahtar: "")).encrypt(input(""Veri: "").encode())""", 1
+"""json.dumps(input(""Veri: ""))""", 1
+"""tarfile.open(input(""Arşiv Dosyası: "")).extract(input(""Hedef: ""))""", 1
+"""xml.dom.minidom.parse(input(""XML Dosya: ""))""", 1
+"""hashlib.new(input(""Algoritma: "")).update(input(""Veri: "").encode())""", 1
+"""tempfile.TemporaryFile().write(input(""Veri: "").encode())""", 1
+"""tempfile.mktemp(input(""Dosya Adı: ""))""", 1
+"""eval(input(""Komut Girin: ""))""", 1
+"""exec(input(""Kod Girin: ""))""", 1
+"""os.system(input(""Komut Girin: ""))""", 1
+"""os.popen(input(""Komut Girin: "")).read()""", 1
+"""pickle.loads(input(""Pickle Verisi: "").encode())""", 1
+"""json.loads(input(""JSON Verisi: ""))""", 1
+"""sqlite3.connect(input(""Veritabanı Yolu: "")).execute(input(""SQL Sorgusu: ""))""", 1
+"""xml.etree.ElementTree.fromstring(input(""XML Verisi: ""))""", 1
+"""xml.dom.minidom.parseString(input(""XML Verisi: ""))""", 1
+"""hashlib.md5(input(""Veri: "").encode()).hexdigest()""", 1
+"""hashlib.sha256(input(""Veri: "").encode()).hexdigest()""", 1
+"""tarfile.open(input(""Arşiv Yolu: "")).extractall()""", 1
+"""os.remove(input(""Silinecek Dosya: ""))""", 1
+"""shutil.rmtree(input(""Silinecek Klasör: ""))""", 1
+"""webbrowser.open(input(""URL: ""))""", 1
+"""urllib.request.urlopen(input(""URL: ""))""", 1
+"""openpyxl.load_workbook(input(""Excel Dosya Adı: ""))""", 1
+"""Fernet(input(""Anahtar: "")).decrypt(input(""Şifreli Veri: "").encode())""", 1
+"""os.environ[input(""Değişken Adı: "")] = input(""Değişken Değeri: "")""", 1
+"""sqlite3.connect(input(""Veritabanı Adı: "")).execute(input(""Güncelleme Sorgusu: ""))""", 1
+"""os.remove(input(""Silinecek Dosya Adı: ""))""", 1
+"""webbrowser.get(input(""Tarayıcı Yolu: "")).open(input(""URL: ""))""", 1
+"""openpyxl.Workbook().save(input(""Yeni Excel Dosya: ""))""", 1
+"""smtplib.SMTP(input(""SMTP Sunucu: "")).quit()""", 1
+"""ftp.mkd(input(""Yeni Dizin Adı: ""))""", 1
+"""tarfile.open(input(""Arşiv Yolu: "")).close()""", 1
+"""sqlite3.connect(input(""Veritabanı Yolu: "")).commit()""", 1
+"""ftplib.FTP(input(""Sunucu: "")).quit()""", 1
+"""xml.etree.ElementTree.ElementTree().find(input(""XPath: ""))""", 1
+"""sqlite3.connect(input(""DB Yolu: "")).rollback()""", 1
+"""requests.head(input(""Hedef URL: ""))""", 1
+"""sqlite3.connect(input(""DB Adı: "")).execute(input(""Komut: ""))""", 1
+"""ftp.cwd(input(""FTP Dizin Adı: ""))""", 1
+"""requests.delete(input(""Silinecek URL: ""))""", 1
+"""sqlite3.connect(input(""DB Yolu: "")).execute(input(""SQL Komutu: ""))""", 1
+"""os.mkdir(input(""Yeni Dizin: ""))""", 1
+"""xml.etree.ElementTree.parse(input(""XML Dosya Yolu: "")).find(input(""XPath: ""))""", 1
+"""sqlite3.connect(input(""DB Adı: "")).executescript(input(""SQL Script: ""))""", 1
+"""ftp.quit()""", 1
+"""xml.dom.minidom.parse(input(""XML Dosya: ""))""", 1
+"""sqlite3.connect(input(""Veritabanı Yolu: "")).commit()""", 1
+"""sqlite3.connect(input(""Veritabanı Adı: "")).executescript(input(""Script: ""))""", 1
+"""import ftplibnftp = ftplib.FTP(input(""Sunucu Adresi: ""))nftp.retrlines('LIST')""", 1
+"""import osnos.path.exists(input(""Dosya Yolu: ""))""", 1
+"""import requestsnrequests.head(input(""URL: ""))""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""Veritabanı Adı: ""))nconn.close()""", 1
+"""import xml.etree.ElementTree as ETnET.parse(input(""XML Dosya: "")).getroot()""", 1
+"""import requestsnrequests.options(input(""URL: ""))""", 1
+"""import webbrowsernwebbrowser.open_new_tab(input(""Hedef URL: ""))""", 1
+"""import openpyxlnwb = openpyxl.Workbook()nwb.save(input(""Excel Dosya Yolu: ""))""", 1
+"""import hashlibnhashlib.blake2b(input(""Veri: "").encode()).hexdigest()""", 1
+"""import urllib.parsenurllib.parse.quote(input(""Metin: ""))""", 1
+"""import sqlite3nsqlite3.connect(input(""DB Yolu: "")).execute('CREATE TABLE IF NOT EXISTS test (id INT)')""", 1
+"""import ftplibnftp = ftplib.FTP(input(""Sunucu: ""))nftp.dir()""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""Veritabanı: ""))nconn.execute('VACUUM')""", 1
+"""import tarfilentarfile.open(input(""Arşiv Dosya: "")).add(input(""Eklenecek Dosya: ""))""", 1
+"""import smtplibnsmtp = smtplib.SMTP_SSL(input(""SMTP Sunucu: ""))""", 1
+"""import osnos.path.islink(input(""Bağlantı Yolu: ""))""", 1
+"""import xmlrpc.clientnserver = xmlrpc.client.ServerProxy(input(""Sunucu Adresi: ""))nserver.system.listMethods()""", 1
+"""import openpyxlnwb = openpyxl.load_workbook(input(""Excel Dosya: ""))nwb.active.append([input(""Veri: "")])""", 1
+"""import urllib.parsenurllib.parse.unquote(input(""Kodlanmış Metin: ""))""", 1
+"""import ftplibnftp = ftplib.FTP(input(""Sunucu Adresi: ""))nftp.dir(input(""Dizin: ""))""", 1
+"""import tarfilentarfile.open(input(""Arşiv Dosya: "")).getnames()""", 1
+"""import urllib.requestnurllib.request.urlopen(input(""URL: "")).read()""", 1
+"""import ftplibnftp = ftplib.FTP(input(""Sunucu: ""))nftp.retrlines('RETR ' + input(""Dosya: ""))""", 1
+"""import xml.etree.ElementTree as ETnroot = ET.Element(input(""Kök Etiket: ""))""", 1
+"""import osnos.rmdir(input(""Klasör Yolu: ""))""", 1
+"""import requestsnrequests.delete(input(""URL: ""))""", 1
+"""import sqlite3nsqlite3.connect(input(""DB Yolu: "")).execute(input(""SQL Sorgusu: ""))""", 1
+"""import openpyxlnwb = openpyxl.Workbook()nwb.save(input(""Excel Dosya Yolu: ""))""", 1
+"""import xml.etree.ElementTree as ETnET.ElementTree().write(input(""XML Dosya Yolu: ""))""", 1
+"""import smtplibnsmtp = smtplib.SMTP(input(""SMTP Sunucu: ""))nsmtp.quit()""", 1
+"""import ftplibnftp = ftplib.FTP(input(""FTP Sunucu: ""))nftp.mkd(input(""Yeni Klasör: ""))""", 1
+"""import osnos.unlink(input(""Dosya Yolu: ""))""", 1
+"""import xml.dom.minidomnxml.dom.minidom.parse(input(""XML Dosya: ""))""", 1
+"""import webbrowsernwebbrowser.open_new_tab(input(""Hedef URL: ""))""", 1
+"""import tarfilentarfile.open(input(""Arşiv Dosya: "")).add(input(""Eklenecek Dosya: ""))""", 1
+"""import urllib.parsenurllib.parse.quote(input(""Kodlanacak Metin: ""))""", 1
+"""import shutilnshutil.rmtree(input(""Silinecek Klasör: ""))""", 1
+"""import sqlite3nsqlite3.connect(input(""Veritabanı Yolu: "")).executescript(input(""SQL Script: ""))""", 1
+"""import osnos.path.islink(input(""Bağlantı Yolu: ""))""", 1
+"""import hashlibnhashlib.sha256(input(""Veri: "").encode()).hexdigest()""", 1
+"""import xmlrpc.clientnserver = xmlrpc.client.ServerProxy(input(""Sunucu URL: ""))nserver.system.listMethods()""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""Veritabanı Yolu: ""))nconn.close()""", 1
+"""import requestsnrequests.head(input(""URL: ""))""", 1
+"""import xml.etree.ElementTree as ETnroot = ET.Element(input(""Kök Etiket: ""))""", 1
+"""import openpyxlnwb = openpyxl.load_workbook(input(""Excel Dosya: ""))nwb.active.append([input(""Veri: "")])""", 1
+"""import sqlite3nsqlite3.connect(input(""DB Yolu: "")).rollback()""", 1
+"""import smtplibnsmtplib.SMTP_SSL(input(""SMTP Sunucu: "")).quit()""", 1
+"""import osnos.path.exists(input(""Dosya Yolu: ""))""", 1
+"""import urllib.parsenurllib.parse.unquote(input(""Kodlanmış Metin: ""))""", 1
+"""import requestsnrequests.options(input(""URL: ""))""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""DB Yolu: ""))nconn.execute('VACUUM')""", 1
+"""import urllib.requestnurllib.request.urlopen(input(""URL: "")).read()""", 1
+"""import tarfilentarfile.open(input(""Arşiv Dosya: "")).extractall(input(""Hedef Dizin: ""))""", 1
+"""import xml.dom.minidomnxml.dom.minidom.parseString(input(""XML İçeriği: ""))""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""Veritabanı Yolu: "")).commit()""", 1
+"""import ftplibnftp = ftplib.FTP(input(""FTP Sunucu: ""))nftp.cwd(input(""Dizin: ""))""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""Veritabanı: ""))nconn.execute(input(""SQL Komutu: ""))""", 1
+"""import openpyxlnwb = openpyxl.Workbook()nwb.save(input(""Excel Dosya Adı: ""))""", 1
+"""import tarfilentar = tarfile.open(input(""Arşiv Dosya: ""))ntar.extract(input(""Dosya Adı: ""))""", 1
+"""import xmlrpc.clientnserver = xmlrpc.client.ServerProxy(input(""Sunucu URL: ""))nserver.system.listMethods()""", 1
+"""import urllib.parsenurllib.parse.quote_plus(input(""Kodlanacak Metin: ""))""", 1
+"""import requestsnrequests.head(input(""Hedef URL: ""))""", 1
+"""import sqlite3nsqlite3.connect(input(""DB Adı: "")).executescript(input(""SQL Scripti: ""))""", 1
+"""import tarfilentarfile.open(input(""Arşiv Dosya: "")).getnames()""", 1
+"""import webbrowsernwebbrowser.open_new_tab(input(""URL: ""))""", 1
+"""import hashlibnhashlib.sha512(input(""Veri: "").encode()).hexdigest()""", 1
+"""import osnos.remove(input(""Dosya Yolu: ""))""", 1
+"""import ftplibnftp = ftplib.FTP(input(""FTP Sunucu: ""))nftp.mkd(input(""Yeni Klasör: ""))""", 1
+"""import tarfilentarfile.open(input(""Arşiv Dosya: "")).close()""", 1
+"""import osnos.path.islink(input(""Bağlantı Yolu: ""))""", 1
+"""import urllib.requestnurllib.request.urlopen(input(""URL: "")).read()""", 1
+"""import shutilnshutil.rmtree(input(""Silinecek Klasör: ""))""", 1
+"""import sqlite3nsqlite3.connect(input(""DB Yolu: "")).rollback()""", 1
+"""import smtplibnsmtplib.SMTP_SSL(input(""SMTP Sunucu: "")).quit()""", 1
+"""import requestsnrequests.options(input(""URL: ""))""", 1
+"""import xml.dom.minidomnxml.dom.minidom.parse(input(""XML Dosya: ""))""", 1
+"""import requestsnrequests.get(input(""URL: ""))""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""Veritabanı Yolu: ""))nconn.close()""", 1
+"""import tarfilentarfile.open(input(""Arşiv Dosya: "")).extractall(input(""Hedef Dizin: ""))""", 1
+"""import webbrowsernwebbrowser.open(input(""Açılacak URL: ""))""", 1
+"""import urllib.parsenurllib.parse.unquote(input(""Kodlanmış Metin: ""))""", 1
+"""import hashlibnhashlib.blake2b(input(""Veri: "").encode()).hexdigest()""", 1
+"""import sqlite3nsqlite3.connect(input(""DB Adı: "")).commit()""", 1
+"""import osnos.path.exists(input(""Dosya Yolu: ""))""", 1
+"""import osnos.unlink(input(""Dosya Sil: ""))""", 1
+"""import openpyxlnwb = openpyxl.Workbook()nws = wb.activenws.append([input(""Veri: "")])nwb.save(input(""Dosya Yolu: ""))""", 1
+"""import xml.etree.ElementTree as ETnET.ElementTree(ET.Element(input(""Kök Etiket: ""))).write(input(""XML Dosya: ""))""", 1
+"""import paramikonssh = paramiko.SSHClient()nssh.load_host_keys(input(""Host Dosya: ""))""", 1
+"""import smtplibnsmtp = smtplib.SMTP(input(""SMTP Sunucu: ""))nsmtp.send_message('Subject: Test\n\n' + input(""Mesaj: ""))""", 1
+"""import ftplibnftp = ftplib.FTP(input(""FTP Sunucu: ""))nftp.delete(input(""Dosya: ""))""", 1
+"""import xml.dom.minidomnxml.dom.minidom.parseString('<root>' + input(""XML İçerik: "") + '</root>')""", 1
+"""import jsonnjson.loads(input(""JSON İçerik: ""))""", 1
+"""import webbrowsernwebbrowser.open_new_tab(input(""Web Sayfası: ""))""", 1
+"""import requestsnrequests.head(input(""Sayfa URL: ""))""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""Veritabanı Adı: ""))nconn.execute('CREATE TABLE IF NOT EXISTS tablo (id INTEGER)')""", 1
+"""import tarfilentarfile.open(input(""Arşiv Dosya: "")).extractall(path=input(""Hedef Dizin: ""))""", 1
+"""import hashlibnhashlib.sha512(input(""Şifre: "").encode()).hexdigest()""", 1
+"""import osnos.remove(input(""Silinecek Dosya: ""))""", 1
+"""import ftplibnftp = ftplib.FTP(input(""FTP Adresi: ""))nftp.rmd(input(""Klasör Adı: ""))""", 1
+"""import tarfilentarfile.open(input(""Dosya Yolu: "")).close()""", 1
+"""import osnos.path.isfile(input(""Dosya Yolu: ""))""", 1
+"""import urllib.requestnurllib.request.urlopen(input(""İndirme URL: "")).read()""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""DB Adı: ""))nconn.rollback()""", 1
+"""import smtplibnsmtplib.SMTP_SSL(input(""Sunucu: "")).quit()""", 1
+"""import requestsnrequests.options(input(""API URL: ""))""", 1
+"""import xmlrpc.clientnserver = xmlrpc.client.ServerProxy(input(""Sunucu Adresi: ""))nserver.system.methodHelp(input(""Metod Adı: ""))""", 1
+"""import urllib.parsenurllib.parse.quote_plus(input(""Kodlanacak Metin: ""))""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""Veritabanı Yolu: ""))nconn.commit()""", 1
+"""import jsonnjson.dumps({'data': input(""JSON Veri: "")})""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""Veritabanı Adı: ""))nconn.execute('PRAGMA integrity_check')""", 1
+"""import webbrowsernwebbrowser.get().open(input(""Web Sayfası: ""))""", 1
+"""import urllib.parsenurllib.parse.unquote(input(""Kodlanmış Metin: ""))""", 1
+"""import osnos.mkdir(input(""Yeni Klasör Adı: ""))""", 1
+"""import osnos.rmdir(input(""Silinecek Dizin: ""))""", 1
+"""import jsonnjson.dumps({'key': input(""Veri: "")})""", 1
+"""import requestsnrequests.delete(input(""Silinecek URL: ""))""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""DB Yolu: ""))nconn.execute('DROP TABLE IF EXISTS ' + input(""Tablo Adı: ""))""", 1
+"""import openpyxlnwb = openpyxl.load_workbook(input(""Excel Dosya: ""))nwb.remove(wb[input(""Sayfa Adı: "")])""", 1
+"""import xml.etree.ElementTree as ETnET.parse(input(""XML Dosya Yolu: "")).find(input(""XPath: ""))""", 1
+"""import paramikonssh = paramiko.SSHClient()nssh.load_host_keys(input(""Anahtar Dosya: ""))""", 1
+"""import smtplibnsmtp = smtplib.SMTP(input(""SMTP Sunucu: ""))nsmtp.noop()""", 1
+"""import ftplibnftp = ftplib.FTP(input(""FTP Sunucu: ""))nftp.mkd(input(""Yeni Klasör: ""))""", 1
+"""import osnos.path.isdir(input(""Dizin Yolu: ""))""", 1
+"""import xml.dom.minidomnxml.dom.minidom.parseString('<root>' + input(""XML İçerik: "") + '</root>')""", 1
+"""import webbrowsernwebbrowser.open(input(""Web Sayfası: ""))""", 1
+"""import requestsnrequests.head(input(""Kontrol Edilecek URL: ""))""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""Veritabanı: ""))nconn.execute('VACUUM')""", 1
+"""import webbrowsernwebbrowser.open_new_tab(input(""URL: ""))""", 1
+"""import hashlibnhashlib.sha3_256(input(""Şifre: "").encode()).hexdigest()""", 1
+"""import osnos.remove(input(""Silinecek Dosya: ""))""", 1
+"""import ftplibnftp = ftplib.FTP(input(""FTP Sunucu: ""))nftp.rmd(input(""Klasör Adı: ""))""", 1
+"""import tarfilentarfile.open(input(""Dosya Yolu: "")).close()""", 1
+"""import osnos.path.isfile(input(""Dosya Adı: ""))""", 1
+"""import urllib.requestnurllib.request.urlopen(input(""Web Kaynağı: "")).read()""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""DB Yolu: ""))nconn.rollback()""", 1
+"""import smtplibnsmtplib.SMTP_SSL(input(""SMTP Sunucu: "")).quit()""", 1
+"""import requestsnrequests.options(input(""API URL: ""))""", 1
+"""import xmlrpc.clientnserver = xmlrpc.client.ServerProxy(input(""Sunucu URL: ""))nserver.system.methodHelp(input(""Metod: ""))""", 1
+"""import urllib.parsenurllib.parse.quote(input(""Kodlanacak Metin: ""))""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""Veritabanı: ""))nconn.commit()""", 1
+"""import jsonnjson.dumps({'data': input(""JSON Veri: "")})""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""DB Yolu: ""))nconn.execute('PRAGMA integrity_check')""", 1
+"""import webbrowsernwebbrowser.get().open(input(""Sayfa: ""))""", 1
+"""import urllib.parsenurllib.parse.unquote(input(""Kodlanmış Metin: ""))""", 1
+"""import osnos.mkdir(input(""Yeni Dizin Adı: ""))""", 1
+"""print(""Merhaba Dünya"")""", 0
+"""number = int(input(""Bir sayı girin: ""))nprint(f""Girdiğiniz sayı: {number}"")""", 0
+"""name = input(""Adınız nedir? "")nprint(f""Merhaba {name}!"")""", 0
+"""for i in range(10):n    print(i)""", 0
+"""sum_result = 5 + 10nprint(f""Toplam: {sum_result}"")""", 0
+"""import mathnprint(math.sqrt(16))""", 0
+"""greeting = ""Merhaba!""nprint(greeting.upper())""", 0
+"""import datetimenprint(datetime.datetime.now())""", 0
+"""message = ""Python harika!""nprint(message.lower())""", 0
+"""def kare(x):n    return x * xnprint(kare(4))""", 0
+"""import timentime.sleep(1)nprint(""1 saniye bekledik"")""", 0
+"""import sysnprint(f""Python sürümü: {sys.version}"")""", 0
+"""from math import pinprint(f""Pi sayısı: {pi}"")""", 0
+"""temperature = 30nif temperature > 25:n    print(""Hava sıcak"")""", 0
+"""print(len(""Merhaba Dünya!""))""", 0
+"""import osnprint(os.getcwd())""", 0
+"""message = ""Python Programlama""nprint(message.find(""Programlama""))""", 0
+"""import mathnangle = 45nprint(math.radians(angle))""", 0
+"""def selam_ver():n    print(""Selam!"")nselam_ver()""", 0
+"""import uuidnprint(uuid.uuid4())""", 0
+"""import platformnprint(platform.system())""", 0
+"""from datetime import datenprint(date.today())""", 0
+"""message = ""Python harika bir dil!""nprint(message.split())""", 0
+"""number = 7nif number % 2 == 0:n    print(""Çift sayı"")nelse:n    print(""Tek sayı"")""", 0
+"""import osnprint(os.name)""", 0
+"""import timenprint(f""Saat: {time.strftime('%H:%M:%S')}"")""", 0
+"""import base64nencoded = base64.b64encode(b""Python"")nprint(encoded.decode())""", 0
+"""x = 10ny = 20nz = x + ynprint(f""Toplam: {z}"")""", 0
+"""number = int(input(""Bir sayı girin: ""))nprint(f""Girilen sayı çift mi?: {number % 2 == 0}"")""", 0
+"""text = ""Merhaba Dünya""nprint(text.upper())""", 0
+"""for i in range(5):n    print(f""Sayı: {i}"")""", 0
+"""import datetimennow = datetime.datetime.now()nprint(f""Tarih ve Saat: {now}"")""", 0
+"""city = ""Ankara""nprint(f""Şehir uzunluğu: {len(city)}"")""", 0
+"""import mathnangle = 45nradians = math.radians(angle)nprint(f""Açı: {radians} radyan"")""", 0
+"""fruit = ""Elma""nprint(f""Meyve: {fruit.lower()}"")""", 0
+"""import platformnprint(f""İşletim Sistemi: {platform.system()}"")""", 0
+"""message = ""Python öğreniyorum""nwords = message.split()nprint(f""Kelime listesi: {words}"")""", 0
+"""import osnprint(f""Şu anki dizin: {os.getcwd()}"")""", 0
+"""import timencurrent_time = time.strftime('%H:%M:%S')nprint(f""Saat: {current_time}"")""", 0
+"""price = 99.99nprint(f""Fiyat: {price:.2f}"")""", 0
+"""import mathnprint(f""Pi sayısı: {math.pi}"")""", 0
+"""text = ""Python""nprint(text[::-1])""", 0
+"""import sysnprint(f""Python Sürümü: {sys.version}"")""", 0
+"""x = 25ny = 5nprint(f""Çarpım: {x * y}"")""", 0
+"""def selamla(isim):n    print(f""Merhaba {isim}!"")nselamla(""Ali"")""", 0
+"""message = ""Python öğreniyorum""nif ""Python"" in message:n    print(""Python içeriyor"")""", 0
+"""sentence = ""Kodlama eğlencelidir""nwords = sentence.split()nprint(f""Kelime sayısı: {len(words)}"")""", 0
+"""import uuidnunique_id = uuid.uuid4()nprint(f""Benzersiz ID: {unique_id}"")""", 0
+"""from datetime import datentoday = date.today()nprint(f""Bugünün tarihi: {today}"")""", 0
+"""import mathnangle = 60nprint(f""Kosinus: {math.cos(math.radians(angle))}"")""", 0
+"""file_content = ""Python harika!""nprint(file_content.lower())""", 0
+"""import osncurrent_dir = os.getcwd()nprint(f""Mevcut dizin: {current_dir}"")""", 0
+"""import osnos.mkdir(""yeni_klasor"")nprint(""Yeni klasör oluşturuldu."")""", 0
+"""import osnos.rmdir(""yeni_klasor"")nprint(""Klasör silindi."")""", 0
+"""import osnif os.path.exists(""ornek_dosya.txt""):n    print(""Dosya mevcut."")""", 0
+"""import osnif os.path.isfile(""ornek_dosya.txt""):n    print(""Bu bir dosyadır."")""", 0
+"""import osnif os.path.isdir(""ornek_klasor""):n    print(""Bu bir klasördür."")""", 0
+"""import osnfiles = os.listdir('.')nprint(f""Mevcut dizindeki dosyalar: {files}"")""", 0
+"""import osnprint(f""İşletim sistemi adı: {os.name}"")""", 0
+"""import osnos.system(""echo 'Merhaba Dünya'"")""", 0
+"""import osnprint(f""Geçerli kullanıcı: {os.getlogin()}"")""", 0
+"""import osnfile_size = os.path.getsize(""ornek_dosya.txt"")nprint(f""Dosya boyutu: {file_size} byte"")""", 0
+"""import osnhome_dir = os.path.expanduser('~')nprint(f""Ev dizini: {home_dir}"")""", 0
+"""import osnabsolute_path = os.path.abspath(""ornek_dosya.txt"")nprint(f""Tam yol: {absolute_path}"")""", 0
+"""import osncurrent_dir = os.path.dirname(__file__)nprint(f""Bulunduğunuz dizin: {current_dir}"")""", 0
+"""import osnos.chdir(""ana_klasor"")nprint(f""Yeni çalışma dizini: {os.getcwd()}"")""", 0
+"""import osnfile_info = os.stat(""ornek_dosya.txt"")nprint(f""Son değiştirme tarihi: {file_info.st_mtime}"")""", 0
+"""import osnos.remove(""gecici_dosya.txt"")nprint(""Dosya silindi."")""", 0
+"""import osncurrent_pid = os.getpid()nprint(f""Mevcut işlem kimliği: {current_pid}"")""", 0
+"""import osncurrent_uid = os.getuid()nprint(f""Mevcut kullanıcı kimliği: {current_uid}"")""", 0
+"""import osnos.environ['YENI_DEGISKEN'] = ""Merhaba""nprint(os.environ['YENI_DEGISKEN'])""", 0
+"""import osncwd = os.getcwd()nprint(f""Geçerli dizin: {cwd}"")""", 0
+"""import osnis_dir = os.path.isdir(""kontrol_klasor"")nprint(f""Klasör mevcut mu?: {is_dir}"")""", 0
+"""import osnfull_path = os.path.abspath(""ornek_dosya.txt"")nprint(f""Dosyanın tam yolu: {full_path}"")""", 0
+"""import osnparent_dir = os.path.dirname(os.path.abspath(""ornek_dosya.txt""))nprint(f""Üst dizin: {parent_dir}"")""", 0
+"""import osnos.chdir(""yeni_dizin"")nprint(f""Çalışma dizini değiştirildi: {os.getcwd()}"")""", 0
+"""import osnhome = os.getenv('HOME')nprint(f""Ev dizini: {home}"")""", 0
+"""import osnos.mkdir(""klasor_deneme"")nprint(""Klasör başarıyla oluşturuldu."")""", 0
+"""import osnis_link = os.path.islink(""baglanti.txt"")nprint(f""Sembolik bağlantı mı?: {is_link}"")""", 0
+"""import osnfiles = os.listdir(""."")nfor file in files:n    print(file)""", 0
+"""import osnif os.path.exists(""dosya.txt""):n    print(""Dosya bulundu."")""", 0
+"""import osnos.environ['YENI_PATH'] = ""/usr/local/bin""nprint(os.getenv('YENI_PATH'))""", 0
+"""import osncurrent_dir = os.path.abspath(os.path.curdir)nprint(f""Mevcut dizin: {current_dir}"")""", 0
+"""import osnos.utime(""dosya.txt"")nprint(""Dosya tarihi güncellendi."")""", 0
+"""import mathnprint(f""Karekök(16): {math.sqrt(16)}"")""", 0
+"""import datetimenprint(f""Bugünün tarihi: {datetime.date.today()}"")""", 0
+"""import timentime.sleep(2)nprint(""2 saniye bekledik."")""", 0
+"""import uuidnunique_id = uuid.uuid4()nprint(f""Benzersiz ID: {unique_id}"")""", 0
+"""import platformnprint(f""Sistem: {platform.system()}"")""", 0
+"""import urllib.parsenencoded_text = urllib.parse.quote(""Merhaba Dünya"")nprint(encoded_text)""", 0
+"""import hashlibnhashed_text = hashlib.sha256(b""Parola"").hexdigest()nprint(f""SHA256: {hashed_text}"")""", 0
+"""import base64nencoded = base64.b64encode(b""Python"")nprint(encoded.decode())""", 0
+"""import decimalnvalue = decimal.Decimal('10.55')nprint(f""Ondalık sayı: {value}"")""", 0
+"""import xml.etree.ElementTree as ETnroot = ET.Element(""kök"")nprint(f""Kök etiketi: {root.tag}"")""", 0
+"""import stringnprint(string.ascii_letters)""", 0
+"""import loggingnlogging.basicConfig(level=logging.INFO)nlogging.info(""Bilgi günlüğü mesajı."")""", 0
+"""import socketnhostname = socket.gethostname()nprint(f""Ana bilgisayar adı: {hostname}"")""", 0
+"""import sysnprint(f""Python Yolu: {sys.path}"")""", 0
+"""import ionwith io.StringIO(""Merhaba Dünya"") as s:n    print(s.read())""", 0
+"""import secretsnsecret_value = secrets.token_hex(16)nprint(f""Gizli Anahtar: {secret_value}"")""", 0
+"""import requestsnresponse = requests.get('https://jsonplaceholder.typicode.com/posts/1')nprint(response.json())""", 0
+"""import xml.dom.minidomnxml_str = '<data><ad>Ali</ad></data>'nxml_doc = xml.dom.minidom.parseString(xml_str)nprint(xml_doc.toprettyxml())""", 0
+"""import sqlite3nconn = sqlite3.connect(':memory:')nprint(""Bellek içi veritabanı oluşturuldu."")""", 0
+"""import emailnfrom email.message import EmailMessagenmsg = EmailMessage()nmsg.set_content('Merhaba')nprint(msg)""", 0
+"""import fileinputnfor line in fileinput.input(['example.txt']):n    print(line.strip())""", 0
+"""import inspectndef ornek_fonksiyon():n    passnprint(inspect.signature(ornek_fonksiyon))""", 0
+"""import uuidnunique_id = uuid.uuid4()nprint(f""Benzersiz ID: {unique_id}"")""", 0
+"""from cryptography.fernet import Fernetnkey = input(""Anahtar: "")nfernet = Fernet(key.encode())nencrypted = fernet.encrypt(input(""Veri: "").encode())nprint(encrypted)""", 1
+"""from cryptography.hazmat.primitives import hashesnhash_object = hashes.Hash(hashes.SHA256())nhash_object.update(input(""Veri: "").encode())nprint(hash_object.finalize())""", 1
+"""from cryptography.hazmat.primitives import paddingnpadder = padding.PKCS7(128).padder()npadded_data = padder.update(input(""Veri: "").encode()) + padder.finalize()nprint(padded_data)""", 1
+"""from cryptography.fernet import Fernetnkey = Fernet.generate_key()nfernet = Fernet(key)ndecrypted = fernet.decrypt(input(""Şifreli Veri: "").encode())nprint(decrypted)""", 1
+"""from cryptography.fernet import Fernetnkey = Fernet.generate_key()ncipher_suite = Fernet(key)nmessage = input(""Şifreleyeceğiniz veri: "").encode()ncipher_text = cipher_suite.encrypt(message)nprint(f""Şifreli veri: {cipher_text}"")""", 1
+"""from cryptography.hazmat.primitives import paddingnpadder = padding.PKCS7(128).padder()nmessage = input(""Mesaj: "").encode()npadded_data = padder.update(message) + padder.finalize()nprint(f""Pad'lenmiş veri: {padded_data.hex()}"")""", 1
+"""from cryptography.hazmat.primitives import hashesnmessage = input(""Hashlenecek veri: "").encode()ndigest = hashes.Hash(hashes.SHA3_256())ndigest.update(message)nprint(f""SHA3-256 Hash: {digest.finalize().hex()}"")""", 1
+"""from cryptography.fernet import Fernetnkey = Fernet.generate_key()ncipher_suite = Fernet(key)nmessage = input(""Şifreleyeceğiniz veri: "").encode()ncipher_text = cipher_suite.encrypt(message)nprint(f""Şifreli veri: {cipher_text}"")""", 1
+"""from cryptography.hazmat.primitives import paddingnpadder = padding.PKCS7(128).padder()nmessage = input(""Mesaj: "").encode()npadded_data = padder.update(message) + padder.finalize()nprint(f""Pad'lenmiş veri: {padded_data.hex()}"")""", 1
+"""from cryptography.hazmat.primitives import hashesnmessage = input(""Veriyi hash'le: "").encode()nhash_object = hashes.Hash(hashes.SHA512())nhash_object.update(message)nprint(f""SHA-512 Hash: {hash_object.finalize().hex()}"")""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""Veritabanı Yolu: ""))nconn.execute(input(""SQL Sorgusu: ""))""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""DB Adı: ""))nconn.executescript(input(""SQL Script: ""))""", 1
+"""import sqlite3nconn = sqlite3.connect(':memory:')nconn.execute(input(""SQL Komutu: ""))""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""Veritabanı Dosyası: ""))ncursor = conn.cursor()ncursor.execute(input(""SQL Sorgusu: ""))""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""DB Yolu: ""))nconn.execute(f""DELETE FROM kullanıcılar WHERE id={input('Kullanıcı ID: ')}"")""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""DB Dosyası: ""))ncursor = conn.cursor()ncursor.executescript(input(""SQL Komutları: ""))""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""DB Yolu: ""))ncursor = conn.cursor()nresult = cursor.execute(input(""SQL: ""))nprint(result.fetchall())""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""Veritabanı Dosyası: ""))ncursor = conn.cursor()nresult = cursor.execute(input(""Sorgu: ""))nconn.commit()""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""DB Adı: ""))nconn.execute(f""INSERT INTO kullanıcılar (ad) VALUES ('{input('Ad: ')}')"")""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""DB Dosyası: ""))nconn.execute(f""UPDATE kullanıcılar SET parola='{input('Parola: ')}' WHERE id={input('Kullanıcı ID: ')}"")""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""DB Yolu: ""))nconn.execute(f""DROP TABLE {input('Tablo Adı: ')}"")""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""Veritabanı Adı: ""))nconn.execute(f""ALTER TABLE {input('Tablo: ')} RENAME TO {input('Yeni Ad: ')}"")""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""DB Dosyası: ""))nresult = conn.execute(f""SELECT * FROM {input('Tablo: ')} WHERE id={input('ID: ')}"")nprint(result.fetchall())""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""Veritabanı: ""))nconn.execute(f""DELETE FROM {input('Tablo: ')} WHERE ad='{input('Ad: ')}'"")""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""DB Yolu: ""))nconn.execute(f""INSERT INTO log (mesaj) VALUES ('{input('Mesaj: ')}')"")""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""Veritabanı Dosyası: ""))nresult = conn.execute(input(""SQL Komutu: ""))nfor row in result:n    print(row)""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""DB Adı: ""))nconn.execute(f""DROP DATABASE {input('Veritabanı Adı: ')}"")""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""DB Yolu: ""))nconn.execute(f""ALTER TABLE {input('Tablo Adı: ')} ADD {input('Yeni Sütun: ')} TEXT"")""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""DB Adı: ""))nconn.execute(f""INSERT INTO {input('Tablo Adı: ')} (kolon1) VALUES ('{input('Veri: ')}')"")""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""DB Dosyası: ""))ncursor = conn.cursor()ncursor.executescript(f""{input('Komutlar: ')}"")""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""DB Yolu: ""))nconn.execute(f""UPDATE {input('Tablo: ')} SET ad='{input('Yeni Ad: ')}' WHERE id={input('ID: ')}"")""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""Veritabanı Dosyası: ""))nresult = conn.execute(f""SELECT * FROM {input('Tablo Adı: ')}"")nprint(result.fetchall())""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""DB Adı: ""))nconn.execute(f""DELETE FROM {input('Tablo: ')} WHERE id={input('ID: ')}"")""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""DB Dosyası: ""))nconn.execute(f""DELETE FROM log WHERE id={input('Log ID: ')}"")""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""Veritabanı Adı: ""))nconn.execute(f""INSERT INTO kullanıcılar (ad) VALUES ('{input('Ad: ')}')"")""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""DB Yolu: ""))nconn.execute(f""INSERT INTO log (mesaj) VALUES ('{input('Mesaj: ')}')"")""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""DB Dosyası: ""))nconn.execute(f""ALTER TABLE {input('Tablo Adı: ')} ADD {input('Sütun Adı: ')} INTEGER"")""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""DB Adı: ""))nconn.execute(f""UPDATE log SET mesaj='{input('Yeni Mesaj: ')}' WHERE id={input('Log ID: ')}"")""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""DB Dosyası: ""))nconn.execute(f""DROP TABLE IF EXISTS {input('Tablo Adı: ')}"")""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""DB Adı: ""))nconn.execute(f""INSERT INTO {input('Tablo: ')} (ad) VALUES ('{input('Ad: ')}')"")""", 1
+"""import osnos.system(input(""Sistem Komutu: ""))""", 1
+"""import picklenobj = pickle.loads(input(""Serileştirilmiş Veri: "").encode())""", 1
+"""import xmlrpc.clientnserver = xmlrpc.client.ServerProxy(input(""Sunucu URL: ""))nserver.call(input(""Metod: ""))""", 1
+"""import urllib.requestnresponse = urllib.request.urlopen(input(""URL: ""))nprint(response.read())""", 1
+"""import tarfilentarfile.open(input(""Arşiv Dosya: "")).extractall()""", 1
+"""import shutilnshutil.rmtree(input(""Silinecek Klasör: ""))""", 1
+"""import jsonnjson.loads(input(""JSON Verisi: ""))""", 1
+"""import openpyxlnwb = openpyxl.load_workbook(input(""Excel Dosyası: ""))""", 1
+"""import xml.etree.ElementTree as ETnET.parse(input(""XML Dosya: ""))""", 1
+"""import xml.dom.minidomnxml.dom.minidom.parse(input(""XML Dosya: ""))""", 1
+"""import webbrowsernwebbrowser.open(input(""URL: ""))""", 1
+"""import hashlibnhashed = hashlib.md5(input(""Veri: "").encode()).hexdigest()nprint(hashed)""", 1
+"""import tarfilentarfile.open(input(""Arşiv Dosya: "")).extractall(input(""Hedef Klasör: ""))""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""Veritabanı Adı: ""))nconn.execute(input(""SQL Komutu: ""))""", 1
+"""import xmlrpc.clientnproxy = xmlrpc.client.ServerProxy(input(""Sunucu URL: ""))nproxy.system.methodCall(input(""Metod Adı: ""))""", 1
+"""import urllib.parsenparsed = urllib.parse.urlparse(input(""URL: ""))nprint(parsed.netloc)""", 1
+"""import openpyxlnwb = openpyxl.load_workbook(input(""Excel Dosyası: ""))nws = wb.activenprint(ws['A1'].value)""", 1
+"""import requestsnrequests.delete(input(""Hedef URL: ""))""", 1
+"""import tarfilentar = tarfile.open(input(""Dosya Yolu: ""))ntar.extractall(input(""Hedef Dizin: ""))""", 1
+"""import jsonnjson_data = json.loads(input(""JSON Verisi: ""))nprint(json_data)""", 1
+"""import requestsnresponse = requests.get(input(""URL: ""))nprint(response.content)""", 1
+"""import sqlite3nconn = sqlite3.connect(input(""DB Yolu: ""))nconn.execute(input(""SQL Sorgusu: ""))""", 1
+"""import webbrowsernwebbrowser.open_new_tab(input(""URL: ""))""", 1
+"""import hashlibnhashed = hashlib.sha256(input(""Veri: "").encode()).hexdigest()nprint(f""SHA-256 Hash: {hashed}"")""", 1
+"""import hashlibnhashed = hashlib.sha512(input(""Veri: "").encode()).hexdigest()nprint(f""SHA-512 Hash: {hashed}"")""", 1
+"""import hashlibnhashed = hashlib.md5(input(""Veri: "").encode()).hexdigest()nprint(f""MD5 Hash: {hashed}"")""", 1
+"""import hashlibnhashed = hashlib.blake2b(input(""Veri: "").encode()).hexdigest()nprint(f""BLAKE2b Hash: {hashed}"")""", 1
+"""import hashlibnhashed = hashlib.blake2s(input(""Veri: "").encode()).hexdigest()nprint(f""BLAKE2s Hash: {hashed}"")""", 1
+"""import hashlibnhasher = hashlib.new('sha3_256')nhasher.update(input(""Veri: "").encode())nprint(f""SHA3-256 Hash: {hasher.hexdigest()}"")""", 1
+"""import hashlibnhashed = hashlib.new('sha1')nhashed.update(input(""Veri: "").encode())nprint(f""SHA-1 Hash: {hashed.hexdigest()}"")""", 1
+"""import hashlibnhasher = hashlib.sha3_512()nhasher.update(input(""Veri: "").encode())nprint(f""SHA3-512 Hash: {hasher.hexdigest()}"")""", 1
+"""import hashlibnhash_object = hashlib.new('sha384')nhash_object.update(input(""Veri: "").encode())nprint(f""SHA-384 Hash: {hash_object.hexdigest()}"")""", 1
+"""import hashlibnhash_object = hashlib.new('shake_128')nhash_object.update(input(""Veri: "").encode())nprint(f""SHAKE-128 Hash: {hash_object.hexdigest(32)}"")""", 1
+"""import hashlibnhash_object = hashlib.new('shake_256')nhash_object.update(input(""Veri: "").encode())nprint(f""SHAKE-256 Hash: {hash_object.hexdigest(64)}"")""", 1
+"""import hashlibnhash_object = hashlib.new('md4')nhash_object.update(input(""Veri: "").encode())nprint(f""MD4 Hash: {hash_object.hexdigest()}"")""", 1
+"""import hashlibnhashed = hashlib.new('ripemd160')nhashed.update(input(""Veri: "").encode())nprint(f""RIPEMD-160 Hash: {hashed.hexdigest()}"")""", 1
+"""import hashlibnhash_object = hashlib.new('whirlpool')nhash_object.update(input(""Veri: "").encode())nprint(f""Whirlpool Hash: {hash_object.hexdigest()}"")""", 1
+"""import hashlibnhash_object = hashlib.new('md5')nhash_object.update(input(""Veri: "").encode())nprint(f""MD5 Hash: {hash_object.hexdigest()}"")""", 1
+"""import hashlibnhasher = hashlib.new('sha224')nhasher.update(input(""Veri: "").encode())nprint(f""SHA-224 Hash: {hasher.hexdigest()}"")""", 1
+"""import hashlibnhash_object = hashlib.new('sha512_256')nhash_object.update(input(""Veri: "").encode())nprint(f""SHA-512/256 Hash: {hash_object.hexdigest()}"")""", 1
+"""import hashlibnhash_object = hashlib.new('md5')nhash_object.update(input(""Dosya Adı: "").encode())nprint(f""Dosya MD5 Hash: {hash_object.hexdigest()}"")""", 1
+"""import hashlibnhashed = hashlib.new('sha512')nhashed.update(input(""Parola: "").encode())nprint(f""SHA-512 Parola Hash: {hashed.hexdigest()}"")""", 1
+"""import hashlibnhash_object = hashlib.sha256(b""Veri"")nprint(f""SHA-256 Hash: {hash_object.hexdigest()}"")""", 0
+"""import hashlibnhash_object = hashlib.md5(b""Veri"")nprint(f""MD5 Hash: {hash_object.hexdigest()}"")""", 0
+"""import hashlibnhash_object = hashlib.sha512(b""Python"")nprint(f""SHA-512 Hash: {hash_object.hexdigest()}"")""", 0
+"""import hashlibnhash_object = hashlib.sha3_256(b""Gizli Mesaj"")nprint(f""SHA3-256 Hash: {hash_object.hexdigest()}"")""", 0
+"""import hashlibnhash_object = hashlib.blake2b(b""Veri"")nprint(f""BLAKE2b Hash: {hash_object.hexdigest()}"")""", 0
+"""import hashlibnhash_object = hashlib.blake2s(b""Veri"")nprint(f""BLAKE2s Hash: {hash_object.hexdigest()}"")""", 0
+"""import hashlibnhash_object = hashlib.sha1(b""Python"")nprint(f""SHA-1 Hash: {hash_object.hexdigest()}"")""", 0
+"""import hashlibnhash_object = hashlib.sha3_512(b""Mesaj"")nprint(f""SHA3-512 Hash: {hash_object.hexdigest()}"")""", 0
+"""import hashlibnhash_object = hashlib.sha224(b""Python Harika"")nprint(f""SHA-224 Hash: {hash_object.hexdigest()}"")""", 0
+"""import hashlibnhash_object = hashlib.sha384(b""Python"")nprint(f""SHA-384 Hash: {hash_object.hexdigest()}"")""", 0
+"""import hashlibnhash_object = hashlib.sha256(b""Programlama"")nprint(f""SHA-256 Hash: {hash_object.hexdigest()}"")""", 0
+"""import hashlibnhash_object = hashlib.new('sha512_256')nhash_object.update(b""Gizli Veri"")nprint(f""SHA-512/256 Hash: {hash_object.hexdigest()}"")""", 0
+"""import hashlibnhash_object = hashlib.new('sha3_224')nhash_object.update(b""Python"")nprint(f""SHA3-224 Hash: {hash_object.hexdigest()}"")""", 0
+"""import hashlibnhash_object = hashlib.new('shake_128')nhash_object.update(b""Veri"")nprint(f""SHAKE-128 Hash: {hash_object.hexdigest(16)}"")""", 0
+"""import hashlibnhash_object = hashlib.new('shake_256')nhash_object.update(b""Şifre"")nprint(f""SHAKE-256 Hash: {hash_object.hexdigest(32)}"")""", 0
+"""import hashlibnhash_object = hashlib.sha3_384(b""Mesaj"")nprint(f""SHA3-384 Hash: {hash_object.hexdigest()}"")""", 0
+"""import hashlibnhash_object = hashlib.new('sha1')nhash_object.update(b""Deneme"")nprint(f""SHA-1 Hash: {hash_object.hexdigest()}"")""", 0
+"""import hashlibnhash_object = hashlib.new('md5')nhash_object.update(b""Veri"")nprint(f""MD5 Hash: {hash_object.hexdigest()}"")""", 0
+"""import hashlibnhash_object = hashlib.sha512(b""Python"")nprint(f""SHA-512 Hash: {hash_object.hexdigest()}"")""", 0
+"""import hashlibnhash_object = hashlib.sha384(b""Deneme"")nprint(f""SHA-384 Hash: {hash_object.hexdigest()}"")""", 0
+"""import hashlibnhash_object = hashlib.new('sha3_256')nhash_object.update(b""Veri"")nprint(f""SHA3-256 Hash: {hash_object.hexdigest()}"")""", 0
+"""import hashlibnhash_object = hashlib.sha224(b""Python"")nprint(f""SHA-224 Hash: {hash_object.hexdigest()}"")""", 0
+"""import hashlibnhash_object = hashlib.blake2b(b""Veri"")nprint(f""BLAKE2b Hash: {hash_object.hexdigest()}"")""", 0
+"""import hashlibnhash_object = hashlib.blake2s(b""Python"")nprint(f""BLAKE2s Hash: {hash_object.hexdigest()}"")""", 0
+"""import hashlibnhash_object = hashlib.sha3_512(b""Deneme"")nprint(f""SHA3-512 Hash: {hash_object.hexdigest()}"")""", 0
+"""import hashlibnhash_object = hashlib.sha256(b""Python Harika"")nprint(f""SHA-256 Hash: {hash_object.hexdigest()}"")""", 0
+"""import hashlibnhash_object = hashlib.new('sha3_224')nhash_object.update(b""Deneme"")nprint(f""SHA3-224 Hash: {hash_object.hexdigest()}"")""", 0
+"""import hashlibnhash_object = hashlib.sha512(b""Programlama"")nprint(f""SHA-512 Hash: {hash_object.hexdigest()}"")""", 0
+"""import hashlibnhash_object = hashlib.sha3_256(b""Python"")nprint(f""SHA3-256 Hash: {hash_object.hexdigest()}"")""", 0
+"""import hashlibnhash_object = hashlib.sha1(b""Python"")nprint(f""SHA-1 Hash: {hash_object.hexdigest()}"")""", 0
+"""import hashlibnhash_object = hashlib.md5(b""Deneme"")nprint(f""MD5 Hash: {hash_object.hexdigest()}"")""", 0
+"""import hashlibnhash_object = hashlib.sha384(b""Programlama"")nprint(f""SHA-384 Hash: {hash_object.hexdigest()}"")""", 0
+"""import hashlibnhash_object = hashlib.new('sha3_256')nhash_object.update(b""Veri"")nprint(f""SHA3-256 Hash: {hash_object.hexdigest()}"")""", 0
+"""import hashlibnhash_object = hashlib.sha256(b""Gizli Veri"")nprint(f""SHA-256 Hash: {hash_object.hexdigest()}"")""", 0
+"""import hashlibnhash_object = hashlib.sha224(b""Veri"")nprint(f""SHA-224 Hash: {hash_object.hexdigest()}"")""", 0
+"""import hashlibnhash_object = hashlib.sha3_384(b""Şifre"")nprint(f""SHA3-384 Hash: {hash_object.hexdigest()}"")""", 0
+"""import hashlibnhash_object = hashlib.sha1(b""Veri"")nprint(f""SHA-1 Hash: {hash_object.hexdigest()}"")""", 0
+"""import hashlibnhash_object = hashlib.new('md5')nhash_object.update(b""Dosya"")nprint(f""MD5 Hash: {hash_object.hexdigest()}"")""", 0
+"""import hashlibnhash_object = hashlib.sha512(b""Deneme"")nprint(f""SHA-512 Hash: {hash_object.hexdigest()}"")""", 0
+"""import hashlibnhash_object = hashlib.sha3_512(b""Mesaj"")nprint(f""SHA3-512 Hash: {hash_object.hexdigest()}"")""", 0
+"""import requestsnresponse = requests.get('https://jsonplaceholder.typicode.com/posts/1')nprint(response.json())""", 0
+"""import requestsnresponse = requests.delete('https://httpbin.org/delete')nprint(response.json())""", 0
+"""import requestsnresponse = requests.head('https://httpbin.org/get')nprint(response.headers)""", 0
+"""import requestsnresponse = requests.options('https://httpbin.org/options')nprint(response.headers)""", 0
+"""import requestsnresponse = requests.get('https://api.github.com')nprint(response.status_code)""", 0
+"""import requestsnresponse = requests.get('https://api.github.com/users/octocat')nprint(response.json())""", 0
+"""import requestsnresponse = requests.get('https://jsonplaceholder.typicode.com/comments')nprint(response.json())""", 0
+"""import requestsnresponse = requests.get('https://jsonplaceholder.typicode.com/users')nprint(response.json())""", 0
+"""import requestsnresponse = requests.get('https://jsonplaceholder.typicode.com/albums')nprint(response.json())""", 0
+"""import requestsnresponse = requests.get('https://jsonplaceholder.typicode.com/photos')nprint(response.json())""", 0
+"""import requestsnresponse = requests.get('https://jsonplaceholder.typicode.com/todos')nprint(response.json())""", 0
+"""import requestsnresponse = requests.get('https://jsonplaceholder.typicode.com/posts/2')nprint(response.json())""", 0
+"""import requestsnresponse = requests.get('https://jsonplaceholder.typicode.com/posts/3')nprint(response.json())""", 0
+"""import requestsnresponse = requests.get('https://jsonplaceholder.typicode.com/posts/4')nprint(response.json())""", 0
+"""import requestsnresponse = requests.get('https://jsonplaceholder.typicode.com/posts/5')nprint(response.json())""", 0
+"""import requestsnresponse = requests.get('https://jsonplaceholder.typicode.com/posts/6')nprint(response.json())""", 0
+"""import requestsnresponse = requests.get('https://jsonplaceholder.typicode.com/posts/7')nprint(response.json())""", 0
+"""import requestsnresponse = requests.get('https://jsonplaceholder.typicode.com/posts/8')nprint(response.json())""", 0
+"""import requestsnresponse = requests.get('https://jsonplaceholder.typicode.com/posts/9')nprint(response.json())""", 0
+"""import requestsnresponse = requests.get('https://jsonplaceholder.typicode.com/posts/10')nprint(response.json())""", 0
+"""import requestsnresponse = requests.get('https://jsonplaceholder.typicode.com/posts/11')nprint(response.json())""", 0
+"""import requestsnresponse = requests.get('https://jsonplaceholder.typicode.com/posts/12')nprint(response.json())""", 0
+"""import requestsnresponse = requests.get('https://jsonplaceholder.typicode.com/posts/13')nprint(response.json())""", 0
+"""import requestsnresponse = requests.get('https://jsonplaceholder.typicode.com/posts/14')nprint(response.json())""", 0
+"""import requestsnresponse = requests.get('https://jsonplaceholder.typicode.com/posts/15')nprint(response.json())""", 0
+"""import requestsnresponse = requests.get('https://jsonplaceholder.typicode.com/posts/16')nprint(response.json())""", 0
+"""import requestsnresponse = requests.get('https://jsonplaceholder.typicode.com/posts/17')nprint(response.json())""", 0
+"""import requestsnresponse = requests.get('https://jsonplaceholder.typicode.com/posts/18')nprint(response.json())""", 0
+"""import requestsnresponse = requests.get('https://jsonplaceholder.typicode.com/posts/19')nprint(response.json())""", 0
+"""import requestsnresponse = requests.get('https://jsonplaceholder.typicode.com/posts/20')nprint(response.json())""", 0
+"""import requestsnresponse = requests.get('https://jsonplaceholder.typicode.com/posts/21')nprint(response.json())""", 0
+"""import requestsnresponse = requests.get('https://jsonplaceholder.typicode.com/posts/22')nprint(response.json())""", 0
+"""import requestsnresponse = requests.get('https://jsonplaceholder.typicode.com/posts/23')nprint(response.json())""", 0
+"""import requestsnresponse = requests.get('https://jsonplaceholder.typicode.com/posts/24')nprint(response.json())""", 0
+"""import requestsnresponse = requests.get('https://jsonplaceholder.typicode.com/posts/25')nprint(response.json())""", 0
+"""import requestsnresponse = requests.get('https://jsonplaceholder.typicode.com/posts/26')nprint(response.json())""", 0
+"""import requestsnresponse = requests.get('https://jsonplaceholder.typicode.com/posts/27')nprint(response.json())""", 0
+"""import requestsnresponse = requests.get('https://jsonplaceholder.typicode.com/posts/28')nprint(response.json())""", 0
+"""import requestsnresponse = requests.get('https://jsonplaceholder.typicode.com/posts/29')nprint(response.json())""", 0
+"""import requestsnresponse = requests.get('https://jsonplaceholder.typicode.com/posts/30')nprint(response.json())""", 0
+"""import requestsnresponse = requests.get('https://jsonplaceholder.typicode.com/posts/31')nprint(response.json())""", 0
+"""import requestsnresponse = requests.get('https://jsonplaceholder.typicode.com/posts/32')nprint(response.json())""", 0
+"""import requestsnresponse = requests.get('https://jsonplaceholder.typicode.com/posts/33')nprint(response.json())""", 0
+"""import requestsnresponse = requests.get('https://jsonplaceholder.typicode.com/posts/34')nprint(response.json())""", 0
+"""import requestsnresponse = requests.get('https://jsonplaceholder.typicode.com/posts/35')nprint(response.json())""", 0
+"""import requestsnresponse = requests.get(input(""URL: ""))nprint(response.text)""", 1
+"""import requestsnresponse = requests.delete(input(""Silme URL: ""))nprint(response.text)""", 1
+"""import requestsnsession = requests.Session()nsession.get(input(""Oturum URL: ""))""", 1
+"""import requestsnresponse = requests.get(input(""Dinamik URL: "") + input(""Ek Yolu: ""))nprint(response.text)""", 1
+"""import requestsnresponse = requests.get(f""{input('Ana URL: ')}{input('Dinamik Yol: ')}"")nprint(response.text)""", 1
+"""import requestsnresponse = requests.get(input(""Dosya İndirme URL: ""))nexec(response.text)""", 1
+"""import requestsnresponse = requests.get(input(""Kod Yürütme URL: ""))neval(response.text)""", 1
+"""import requestsnresponse = requests.get(input(""Gizli Kaynak URL: ""))nos.system(response.text)""", 1
+"""import requestsnresponse = requests.get(input(""Veri Çekme: ""))n__import__(response.text)""", 1
+"""import requestsnresponse = requests.get(input(""URL: ""))nglobals()[input(""Fonksiyon Adı: "")] = eval(response.text)""", 1
+"""import requestsnexec(requests.get(input(""Kod URL: "")).text)""", 1
+"""import requestsnresponse = requests.get(input(""Sistem Komutu URL: ""))nos.system(response.text)""", 1
+"""import requestsnexec(requests.get(input(""Dinamik URL: "")).text)""", 1
+"""import requestsnresponse = requests.get(input(""Dinamik Kod Yürütme: ""))neval(response.text)""", 1
+"""import requestsnresponse = requests.get(input(""Veri Al: ""))nos.system(response.text)""", 1
+"""import requestsnresponse = requests.get(input(""Dinamik API: ""))nexec(response.text)""", 1
+"""import requestsnresponse = requests.get(input(""Kod Yükleme: ""))nexec(response.text)""", 1
+"""import requestsnresponse = requests.get(input(""Yetkisiz Yürütme: ""))nos.system(response.text)""", 1
+"""import requestsnresponse = requests.get(input(""Komut URL: ""))neval(response.text)""", 1
+"""from django.http import HttpResponsenfrom django.views.decorators.csrf import csrf_exemptn@csrf_exemptndef unsafe_view(request):n    exec(request.POST['code'])n    return HttpResponse('Kod çalıştırıldı.')""", 1
+"""from django.shortcuts import rendernfrom django.db import connectionndef sql_injection_view(request):n    query = f""SELECT * FROM users WHERE username='{request.GET['username']}'""n    with connection.cursor() as cursor:n        cursor.execute(query)n    return HttpResponse('Sorgu Çalıştırıldı')""", 1
+"""from django.http import JsonResponsendef open_redirect_view(request):n    return JsonResponse({'redirect': request.GET['url']})""", 1
+"""from django.http import HttpResponsenimport osndef command_injection_view(request):n    os.system(request.GET['cmd'])n    return HttpResponse('Komut Çalıştırıldı')""", 1
+"""from django.http import HttpResponsendef sensitive_data_exposure(request):n    return HttpResponse(f""Kullanıcı: {request.GET['username']} Parola: {request.GET['password']}"")""", 1
+"""from django.http import HttpResponsendef eval_execution_view(request):n    result = eval(request.GET['expression'])n    return HttpResponse(f""Sonuç: {result}"")""", 1
+"""from django.http import HttpResponsendef template_injection_view(request):n    context = {'data': request.GET['data']}n    return HttpResponse(f""Merhaba {context['data']}"")""", 1
+"""from django.http import HttpResponsendef header_injection_view(request):n    response = HttpResponse('Merhaba Dünya')n    response['X-Custom-Header'] = request.GET['header']n    return response""", 1
+"""from django.http import HttpResponsenfrom django.db import connectionndef sql_injection_update_view(request):n    query = f""UPDATE users SET password='{request.GET['password']}' WHERE username='{request.GET['username']}'""n    with connection.cursor() as cursor:n        cursor.execute(query)n    return HttpResponse('Parola güncellendi.')""", 1
+"""from django.http import HttpResponsenimport picklendef insecure_deserialization_view(request):n    data = pickle.loads(request.GET['data'].encode())n    return HttpResponse(f""Veri yüklendi: {data}"")""", 1
+"""from django.http import HttpResponsendef unsanitized_input_view(request):n    return HttpResponse(f""Giriş: {request.GET['input']}"")""", 1
+"""from django.http import HttpResponsendef unsafe_query_view(request):n    username = request.GET['username']n    result = eval(f""'Hoşgeldin {username}'"")n    return HttpResponse(result)""", 1
+"""from django.http import HttpResponsenimport requestsndef server_side_request_view(request):n    response = requests.get(request.GET['url'])n    return HttpResponse(response.text)""", 1
+"""from django.http import HttpResponsendef csrf_disabled_view(request):n    return HttpResponse(f""Giriş: {request.POST['username']}"")""", 1
+"""from django.http import HttpResponsendef no_input_sanitization_view(request):n    user_input = request.GET['input']n    return HttpResponse(f""Kullanıcı girişi: {user_input}"")""", 1
+"""from django.http import HttpResponsendef dangerous_redirect_view(request):n    return HttpResponse(f""<a href='{request.GET['next']}'>Tıklayın</a>"")""", 1
+"""from django.http import HttpResponsendef unsafe_caching_view(request):n    response = HttpResponse('Önbelleğe alınabilir içerik')n    response['Cache-Control'] = request.GET['cache_control']n    return response""", 1
+"""from django.http import JsonResponsendef data_exposure_view(request):n    return JsonResponse({'data': request.GET['secret_data']})""", 1
+"""from django.http import HttpResponsendef server_execution_view(request):n    exec(request.GET['command'])n    return HttpResponse('Kod çalıştırıldı.')""", 1
+"""from django.http import HttpResponsenfrom django.views.decorators.csrf import csrf_exemptn@csrf_exemptndef csrf_disabled_login_view(request):n    username = request.POST['username']n    password = request.POST['password']n    return HttpResponse(f""Giriş yapıldı: {username}"")""", 1
+"""from django.http import HttpResponsenfrom django.db import connectionndef user_lookup_view(request):n    query = f""SELECT * FROM users WHERE id='{request.GET['user_id']}'""n    with connection.cursor() as cursor:n        cursor.execute(query)n    return HttpResponse('Sorgu tamamlandı.')""", 1
+"""from django.http import HttpResponsendef template_execution_view(request):n    result = eval(request.GET['expression'])n    return HttpResponse(f""Sonuç: {result}"")""", 1
+"""from django.http import HttpResponsendef header_injection_view(request):n    response = HttpResponse('Tamamlandı')n    response[request.GET['header']] = request.GET['value']n    return response""", 1
+"""from django.http import JsonResponsendef api_response_view(request):n    return JsonResponse({request.GET['key']: request.GET['value']})""", 1
+"""from django.http import HttpResponsendef sql_command_view(request):n    query = f""INSERT INTO log (message) VALUES ('{request.GET['message']}')""n    from django.db import connectionn    with connection.cursor() as cursor:n        cursor.execute(query)n    return HttpResponse('Sorgu tamamlandı.')""", 1
+"""from django.http import HttpResponsendef custom_redirect_view(request):n    return HttpResponse(f""<a href='{request.GET['next']}'>Devam</a>"")""", 1
+"""from django.http import HttpResponsendef insecure_eval_view(request):n    result = eval(request.GET['code'])n    return HttpResponse(f""Sonuç: {result}"")""", 1
+"""from django.http import HttpResponsendef system_info_view(request):n    info = os.popen(request.GET['command']).read()n    return HttpResponse(info)""", 1
+"""from django.http import HttpResponsendef dangerous_url_injection_view(request):n    response = HttpResponse('Tamam')n    response['Location'] = request.GET['url']n    return response""", 1
+"""from django.http import HttpResponsenfrom django.views.decorators.csrf import csrf_exemptn@csrf_exemptndef unsafe_post_data_view(request):n    data = request.POST['data']n    return HttpResponse(f""Alınan veri: {data}"")""", 1
+"""from django.http import HttpResponsendef exec_function_view(request):n    result = eval(request.GET['function'])n    return HttpResponse(f""Sonuç: {result}"")""", 1
+"""from django.http import HttpResponsendef cmd_injection_view(request):n    os.system(request.GET['cmd'])n    return HttpResponse('Komut çalıştırıldı')""", 1
+"""from django.http import HttpResponsendef arbitrary_response_view(request):n    return HttpResponse(request.GET['message'])""", 1
+"""from django.http import HttpResponsendef database_command_view(request):n    from django.db import connectionn    query = request.GET['query']n    with connection.cursor() as cursor:n        cursor.execute(query)n    return HttpResponse('Veritabanı komutu çalıştırıldı')""", 1
+"""from django.http import HttpResponsendef index(request):n    return HttpResponse('Merhaba Dünya')""", 0
+"""from django.views.generic import TemplateViewnclass HomeView(TemplateView):n    template_name = 'index.html'""", 0
+"""from django.views.generic import ListViewnfrom .models import Postnclass PostListView(ListView):n    model = Postn    template_name = 'post_list.html'""", 0
+"""from django.contrib.auth.decorators import login_requirednfrom django.http import HttpResponsen@login_requiredndef dashboard(request):n    return HttpResponse('Giriş Başarılı')""", 0
+"""from django import formsnclass ContactForm(forms.Form):n    name = forms.CharField(max_length=100)n    email = forms.EmailField()""", 0
+"""from django.http import HttpResponsendef about(request):n    return HttpResponse('Hakkımızda Sayfası')""", 0
+"""from django.shortcuts import redirectndef redirect_to_home(request):n    return redirect('home')""", 0
+"""from django.views.generic import DetailViewnfrom .models import Postnclass PostDetailView(DetailView):n    model = Postn    template_name = 'post_detail.html'""", 0
+"""from django.http import JsonResponsendef api_data(request):n    return JsonResponse({'data': 'success'})""", 0
+"""from django.db import modelsnclass Blog(models.Model):n    title = models.CharField(max_length=100)n    content = models.TextField()""", 0
+"""from django.http import HttpResponsendef services(request):n    return HttpResponse('Hizmetlerimiz Sayfası')""", 0
+"""from django.contrib import adminnfrom .models import Postnadmin.site.register(Post)""", 0
+"""from django.views.generic import DeleteViewnfrom .models import Postnclass PostDeleteView(DeleteView):n    model = Postn    template_name = 'post_delete.html'n    success_url = '/'""", 0
+"""from django.contrib.auth import loginnfrom django.contrib.auth.forms import AuthenticationFormnfrom django.http import HttpResponsenndef login_view(request):n    form = AuthenticationForm()n    return HttpResponse('Giriş Formu Görüntülendi')""", 0
+"""from django.contrib.auth import logoutndef logout_view(request):n    logout(request)n    return redirect('home')""", 0
+"""from django.http import HttpResponsendef privacy_policy(request):n    return HttpResponse('Gizlilik Politikası')""", 0
+"""from django.views.decorators.csrf import csrf_protectnfrom django.http import HttpResponsen@csrf_protectndef secure_form_view(request):n    return HttpResponse('Güvenli Form Gönderimi')""", 0
+"""from django.http import HttpResponsendef contact(request):n    return HttpResponse('İletişim Sayfası')""", 0
+"""from django.views.generic import FormViewnfrom .forms import ContactFormnclass ContactFormView(FormView):n    form_class = ContactFormn    template_name = 'contact_form.html'""", 0
+"""from django.http import JsonResponsendef status_check(request):n    return JsonResponse({'status': 'running'})""", 0
+"""from django.http import HttpResponsendef about_us(request):n    return HttpResponse('Hakkımızda Sayfası')""", 0
+"""from django.http import HttpResponsendef portfolio(request):n    return HttpResponse('Portföy Sayfası')""", 0
+"""from django.http import HttpResponsendef terms_of_service(request):n    return HttpResponse('Kullanım Şartları')""", 0
+"""from django.http import HttpResponsendef help_page(request):n    return HttpResponse('Yardım Sayfası')""", 0
+"""from django.http import HttpResponsendef blog_list(request):n    return HttpResponse('Blog Listesi')""", 0
+"""from django.http import JsonResponsendef api_check(request):n    return JsonResponse({'api': 'up'})""", 0
+"""from django.http import HttpResponsendef maintenance(request):n    return HttpResponse('Bakım Sayfası')""", 0
+"""from django.http import HttpResponsendef faq(request):n    return HttpResponse('SSS Sayfası')""", 0
+"""from django.views.generic import RedirectViewnclass GoHomeView(RedirectView):n    url = '/'""", 0
+"""from django.views.generic import TemplateViewnclass StaticView(TemplateView):n    template_name = 'static.html'""", 0
+"""from django.http import JsonResponsendef heartbeat(request):n    return JsonResponse({'status': 'alive'})""", 0
+"""from django.http import HttpResponsendef about_page(request):n    return HttpResponse('Hakkımızda')""", 0
+"""from django.http import HttpResponsendef portfolio_page(request):n    return HttpResponse('Portföy')""", 0
+"""from django.http import HttpResponsendef team_page(request):n    return HttpResponse('Ekip Sayfası')""", 0
+"""from django.http import HttpResponsendef index(request):n    return HttpResponse('Ana Sayfa')""", 0
+"""from django.http import JsonResponsendef api_status(request):n    return JsonResponse({'status': 'running'})""", 0
+"""from django.views.generic import TemplateViewnclass AboutView(TemplateView):n    template_name = 'about.html'""", 0
+"""from django.http import HttpResponsendef contact(request):n    return HttpResponse('İletişim Sayfası')""", 0
+"""from django.http import HttpResponsendef services(request):n    return HttpResponse('Hizmetlerimiz')""", 0
+"""from django.http import JsonResponsendef product_details(request):n    return JsonResponse({'product': 'Telefon'})""", 0
+"""from django.http import HttpResponsendef privacy_policy(request):n    return HttpResponse('Gizlilik Politikası')""", 0
+"""from django.http import HttpResponsendef terms_of_service(request):n    return HttpResponse('Kullanım Şartları')""", 0
+"""from django.shortcuts import redirectndef redirect_to_home(request):n    return redirect('home')""", 0
+"""from django.http import HttpResponsendef faq(request):n    return HttpResponse('SSS')""", 0
+"""from django.http import JsonResponsendef check_api(request):n    return JsonResponse({'api': 'up'})""", 0
+"""from django.http import HttpResponsendef maintenance(request):n    return HttpResponse('Bakımda')""", 0
+"""from django.http import HttpResponsendef about_us(request):n    return HttpResponse('Hakkımızda')""", 0
+"""from django.views.generic import ListViewnfrom .models import Postnclass PostListView(ListView):n    model = Postn    template_name = 'post_list.html'""", 0
+"""from django.http import HttpResponsendef portfolio(request):n    return HttpResponse('Portföy Sayfası')""", 0
+"""from django.http import HttpResponsendef blog_list(request):n    return HttpResponse('Blog Listesi')""", 0
+"""from django.http import JsonResponsendef api_health(request):n    return JsonResponse({'status': 'healthy'})""", 0
+"""from django.http import HttpResponsendef help_page(request):n    return HttpResponse('Yardım Sayfası')""", 0
+"""from django.http import HttpResponsendef terms(request):n    return HttpResponse('Şartlar ve Koşullar')""", 0
+"""from django.http import HttpResponsendef support(request):n    return HttpResponse('Destek Sayfası')""", 0
+"""from django.views.generic import DetailViewnfrom .models import Postnclass PostDetailView(DetailView):n    model = Postn    template_name = 'post_detail.html'""", 0
+"""from django.views.generic import RedirectViewnclass HomeRedirectView(RedirectView):n    url = '/'""", 0
+"""from django.http import HttpResponsendef feedback(request):n    return HttpResponse('Geri Bildirim Sayfası')""", 0
+"""from django.http import JsonResponsendef get_data(request):n    return JsonResponse({'data': 'success'})""", 0
+"""from django.http import HttpResponsendef profile(request):n    return HttpResponse('Profil Sayfası')""", 0
+"""from django.http import HttpResponsendef dashboard(request):n    return HttpResponse('Yönetim Paneli')""", 0
+"""from django.http import HttpResponsendef about_page(request):n    return HttpResponse('Hakkımızda Sayfası')""", 0
+"""from django.views.generic import DeleteViewnfrom .models import Postnclass PostDeleteView(DeleteView):n    model = Postn    template_name = 'post_delete.html'n    success_url = '/'""", 0
+"""from django.contrib.auth.decorators import login_requirednfrom django.http import HttpResponsen@login_requiredndef user_dashboard(request):n    return HttpResponse('Kullanıcı Paneli')""", 0
+"""from django.views.generic import TemplateViewnclass StaticView(TemplateView):n    template_name = 'static.html'""", 0
+"""from django.http import JsonResponsendef health_check(request):n    return JsonResponse({'status': 'alive'})""", 0
+"""from django.http import HttpResponsendef welcome(request):n    return HttpResponse('Hoş Geldiniz')""", 0
+"""from django.http import HttpResponsendef team_page(request):n    return HttpResponse('Ekip Sayfası')""", 0
+"""from django.http import JsonResponsendef check_status(request):n    return JsonResponse({'status': 'active'})""", 0
+"""from django.http import HttpResponsendef site_info(request):n    return HttpResponse('Site Bilgisi')""", 0
+"""from django.http import HttpResponsendef get_updates(request):n    return HttpResponse('Güncellemeler')""", 0
+"""from django.http import HttpResponsendef contact_us(request):n    return HttpResponse('Bize Ulaşın')""", 0
+"""from django.http import HttpResponsendef newsletter(request):n    return HttpResponse('Bülten')""", 0
+"""from django.http import HttpResponsendef partners(request):n    return HttpResponse('Ortaklar')""", 0
+"""from django.http import HttpResponsendef services_page(request):n    return HttpResponse('Hizmetlerimiz')""", 0
+"""from django.http import HttpResponsendef testimonials(request):n    return HttpResponse('Görüşler')""", 0
+"""from django.http import HttpResponsendef about_company(request):n    return HttpResponse('Şirket Hakkında')""", 0
+"""from django.http import HttpResponsendef download_page(request):n    return HttpResponse('İndirme Sayfası')""", 0
+"""from django.http import HttpResponsendef project_details(request):n    return HttpResponse('Proje Detayları')""", 0
+"""from flask import Flasknapp = Flask(__name__)n@app.route('/')ndef index():n    return 'Ana Sayfa'""", 0
+"""from flask import Flasknapp = Flask(__name__)n@app.route('/status')ndef status():n    return {'status': 'Çalışıyor'}""", 0
+"""from flask import Flasknapp = Flask(__name__)n@app.route('/about')ndef about():n    return 'Hakkımızda Sayfası'""", 0
+"""from flask import Flasknapp = Flask(__name__)n@app.route('/contact')ndef contact():n    return 'İletişim Sayfası'""", 0
+"""from flask import Flasknapp = Flask(__name__)n@app.route('/portfolio')ndef portfolio():n    return 'Portföy Sayfası'""", 0
+"""from flask import Flasknapp = Flask(__name__)n@app.route('/faq')ndef faq():n    return 'SSS Sayfası'""", 0
+"""from flask import Flasknapp = Flask(__name__)n@app.route('/terms')ndef terms():n    return 'Kullanım Şartları'""", 0
+"""from flask import Flasknapp = Flask(__name__)n@app.route('/privacy')ndef privacy():n    return 'Gizlilik Politikası'""", 0
+"""from flask import Flasknapp = Flask(__name__)n@app.route('/help')ndef help_page():n    return 'Yardım Sayfası'""", 0
+"""from flask import Flasknapp = Flask(__name__)n@app.route('/dashboard')ndef dashboard():n    return 'Yönetim Paneli'""", 0
+"""from flask import Flasknapp = Flask(__name__)n@app.route('/status-check')ndef status_check():n    return {'status': 'Çalışıyor'}""", 0
+"""from flask import Flasknapp = Flask(__name__)n@app.route('/hello')ndef hello():n    return 'Merhaba Flask!'""", 0
+"""from flask import Flasknapp = Flask(__name__)n@app.route('/')ndef home():n    return 'Ana Sayfa'""", 0
+"""from flask import Flasknapp = Flask(__name__)n@app.route('/contact')ndef contact():n    return 'İletişim Sayfası'""", 0
+"""from flask import Flasknapp = Flask(__name__)n@app.route('/about')ndef about():n    return 'Hakkımızda Sayfası'""", 0
+"""from flask import Flasknapp = Flask(__name__)n@app.route('/help')ndef help_page():n    return 'Yardım Sayfası'""", 0
+"""from flask import Flasknapp = Flask(__name__)n@app.route('/faq')ndef faq():n    return 'SSS Sayfası'""", 0
+"""from flask import Flasknapp = Flask(__name__)n@app.route('/services')ndef services():n    return 'Hizmetlerimiz'""", 0
+"""from flask import Flasknapp = Flask(__name__)n@app.route('/terms')ndef terms():n    return 'Kullanım Şartları'""", 0
+"""from flask import Flasknapp = Flask(__name__)n@app.route('/privacy')ndef privacy():n    return 'Gizlilik Politikası'""", 0
+"""from flask import Flasknapp = Flask(__name__)n@app.route('/dashboard')ndef dashboard():n    return 'Yönetim Paneli'""", 0
+"""from flask import Flasknapp = Flask(__name__)n@app.route('/portfolio')ndef portfolio():n    return 'Portföy Sayfası'""", 0
+"""from flask import Flasknapp = Flask(__name__)n@app.route('/contact-us')ndef contact_us():n    return 'Bize Ulaşın'""", 0
+"""from flask import Flasknapp = Flask(__name__)n@app.route('/newsletter')ndef newsletter():n    return 'Bülten Aboneliği'""", 0
+"""from flask import Flasknapp = Flask(__name__)n@app.route('/about-us')ndef about_us():n    return 'Hakkımızda'""", 0
+"""from flask import Flasknapp = Flask(__name__)n@app.route('/site-info')ndef site_info():n    return 'Site Bilgileri'""", 0
+"""from flask import Flasknapp = Flask(__name__)n@app.route('/features')ndef features():n    return 'Özellikler'""", 0
+"""import osnos.system(f""""rm -rf {input('Silinecek dosya: ')}"""")""",1
+"""import sqlite3nconn = sqlite3.connect('veritabanı.db')ncursor = conn.cursor()nusername = input(""""Kullanıcı adı: """")nquery = f""""SELECT * FROM users WHERE username = '{username}'""""ncursor.execute(query)""",1
+"""user_input = input(""""Kod girin: """")neval(user_input)""",1
+"""import picklenuser_input = input(""""Veriyi girin: """")ndata = pickle.loads(user_input)""",1
+"""user_input = input(""""Mesaj: """")nprint(user_input % {""""key"""": """"değer""""})""",1
+"""def get_db_password():n    return """"supersecretpassword""""""",1
+"""import loggingnlogging.basicConfig(level=logging.DEBUG)nlogging.info(f""""Kullanıcı girişi: {input('Kullanıcı adı: ')}"""")""",1
+"""import hashlibndef hash_password(password):n    return hashlib.md5(password.encode()).hexdigest()""",1
+"""try:n    risky_operation()nexcept:n    pass""",1
+"""import osndef create_file(filename):n    if not os.path.exists(filename):n        os.mkdir(filename)""",1
+"""import deprecated_modulendef old_function():n    deprecated_module.old_func()""",1
+"""def access_resource(user_role):n    if user_role == 'admin':n        perform_sensitive_action()""",1
+"""user_input = input(""""Kod: """")neval(user_input)""",1
+"""import osncommand = input(""""Komut: """")nos.system(command)""",1
+"""API_KEY = """"12345ABCDE""""ndef access_api():n    print(API_KEY)""",1
+"""import picklendef load_data(data):n    return pickle.loads(data)""",1
+"""import execjsndef run_js(code):n    execjs.eval(code)""",1
+"""import base64ndef decode_data(data):n    return base64.b64decode(data)""",1
+"""CONFIG = {'debug': True}ndef start_app():n    if CONFIG['debug']:n        enable_debug_mode()""",1
+"""try:n    risky_operation()nexcept Exception as e:n    print(e)""",1
+"""import yamlndef load_yaml(data):n    return yaml.load(data)""",1
+"""import randomndef generate_secret():n    return random.random()""",1
+"""from flask import Flasknapp = Flask(__name__)napp.config['DEBUG'] = Truen@app.route('/')ndef home():n    return """"Home Page""""""",1
+"""def check_access(user_role):n    if user_role == 'user':n        perform_admin_task()""",1
+"""import sqlite3ndef get_user_data(username):n    conn = sqlite3.connect('users.db')n    cursor = conn.cursor()n    query = f""""SELECT * FROM users WHERE username = '{username}'""""n    cursor.execute(query)n    return cursor.fetchall()""",1
+"""def process_data(data):n    exec(data)""",1
+"""import osnpath = input(""""Dosya yolu: """")nos.remove(path)""",1
+"""import sysndef get_args():n    return sys.argv[1:]""",1
+"""import tempfilendef insecure_temp_file():n    with tempfile.NamedTemporaryFile() as tmp:n        tmp.write(b'Data')""",1
+"""import osnfile_path = input('Silinecek dosya: ')nif os.path.exists(file_path):n    os.remove(file_path)nelse:n    print('Dosya bulunamadı.')""",0
+"""user_input = input('Mesaj: ')nprint(user_input.format(key='değer'))""",0
+"""user_input = input('Kod girin: ')n# Eval kullanımından kaçınılmalıdır. İşlevsellik gereği güvenli bir şekilde işlemlenir.nprint('Girdi alındı.')""",0
+"""import picklenuser_input = input('Veriyi girin: ')ntry:n    data = pickle.loads(user_input.encode())nexcept pickle.UnpicklingError:n    print('Geçersiz veri formatı.')""",0
+"""user_input = input('Mesaj: ')nprint(user_input)""",0
+"""def get_db_password():n    # Güvenli bir şekilde ortam değişkenlerinden veya güvenli depolama çözümlerinden alınmalıdır.n    return os.getenv('DB_PASSWORD')""",0
+"""import loggingnlogging.basicConfig(level=logging.INFO)nlogging.info(f'Kullanıcı girişi: {input('Kullanıcı adı: ')}')""",0
+"""try:n    risky_operation()nexcept Exception as e:n    print(f'Hata oluştu: {e}')""",0
+"""import osndef create_directory(directory_name):n    if not os.path.exists(directory_name):n        os.makedirs(directory_name)n    else:n        print('Dizin zaten mevcut.')""",0
+"""def access_resource(user_role):n    if user_role == 'admin':n        perform_sensitive_action()n    else:n        print('Erişim reddedildi.')""",0
+"""user_input = input('Kod: ')n# Eval kullanımından kaçınılmalıdır.nprint('Girdi alındı.')""",0
+"""API_KEY = os.getenv('API_KEY')ndef access_api():n    if API_KEY:n        print(API_KEY)n    else:n        print('API anahtarı bulunamadı.')""",0
+"""import picklendef load_data(data):n    try:n        return pickle.loads(data.encode())n    except pickle.UnpicklingError:n        print('Geçersiz veri formatı.')""",0
+"""import execjsndef run_js(code):n    try:n        ctx = execjs.compile('')n        return ctx.eval(code)n    except execjs.ProgramError as e:n        print(f'JavaScript hatası: {e}')""",0
+"""import base64ndef decode_data(data):n    try:n        return base64.b64decode(data)n    except base64.binascii.Error:n        print('Geçersiz base64 verisi.')""",0
+"""CONFIG = {'debug': False}ndef start_app():n    if CONFIG['debug']:n        enable_debug_mode()n    else:n        run_production()""",0
+"""try:n    risky_operation()nexcept Exception as e:n    logging.error(f'Hata oluştu: {e}')""",0
+"""import yamlndef load_yaml(data):n    try:n        return yaml.safe_load(data)n    except yaml.YAMLError as e:n        print(f'YAML hatası: {e}')""",0
+"""import secretsndef generate_secret():n    return secrets.token_urlsafe(16)""",0
+"""from flask import Flasknapp = Flask(__name__)napp.config['DEBUG'] = Falsen@app.route('/')ndef home():n    return 'Home Page'""",0
+"""def check_access(user_role):n    if user_role == 'admin':n        perform_admin_task()n    else:n        print('Erişim reddedildi.')""",0
+"""def process_data(data):n    # Güvenli bir şekilde veriyi işleyinn    print('Veri işlendi.')""",0
+"""import osnpath = input('Dosya yolu: ')nif os.path.exists(path):n    os.remove(path)n    print('Dosya silindi.')nelse:n    print('Dosya bulunamadı.')""",0
+"""import sysndef get_args():n    return sys.argv[1:]""",0
+"""import tempfilendef secure_temp_file():n    with tempfile.NamedTemporaryFile(delete=False) as tmp:n        tmp.write(b'Data')n    return tmp.name""",0
+"""import osnos.system(input('Komut girin: '))""",1
+"""import sqlite3nconn = sqlite3.connect('veritabani.db')ncursor = conn.cursor()nusername = input('Kullanıcı adı: ')npassword = input('Parola: ')nquery = f""SELECT * FROM users WHERE username='{username}' AND password='{password}'""ncursor.execute(query)""",1
+"""user_input = input('Veri girin: ')neval(user_input)""",1
+"""import picklendata = input('Veri girin: ')npickle.loads(data)""",1
+"""import yamlndef load_config(config_str):n    return yaml.load(config_str)""",1
+"""import jsonnuser_data = input('JSON verisi girin: ')njson.loads(user_data)""",1
+"""import osndef delete_file():n    filename = input('Silinecek dosya: ')n    os.remove(filename)""",1
+"""import hashlibndef hash_password(password):n    return hashlib.sha1(password.encode()).hexdigest()""",1
+"""import sysndef get_command_line_args():n    args = sys.argv[1:]n    print(args)""",1
+"""import base64ndef decode_string(encoded):n    return base64.b64decode(encoded)""",1
+"""import sslndef insecure_ssl_context():n    context = ssl._create_unverified_context()n    return context""",1
+"""import jsonndef load_json(data):n    return json.loads(data)""",1
+"""import subprocessndef execute_user_command():n    command = input('Komut: ')n    subprocess.call(command)""",1
+"""import picklendef load_pickled_data(data):n    return pickle.loads(data)""",1
+"""import osndef unsafe_chdir():n    path = input('Dizin yolu: ')n    os.chdir(path)""",1
+"""import hashlibndef insecure_hash(password):n    return hashlib.md5(password.encode()).hexdigest()""",1
+"""import osndef remove_directory():n    path = input('Silinecek dizin: ')n    os.rmdir(path)""",1
+"""import picklendef unsafe_pickle_load_func():n    data = input('Veri: ')n    pickle.loads(data)""",1
+"""import osndef delete_directory():n    path = input('Silinecek dizin: ')n    os.rmdir(path)""",1
+"""import osndef unsafe_mkdir():n    dirname = input('Dizin adı: ')n    os.mkdir(dirname)""",1
+"""import xml.etree.ElementTree as ETndef parse_user_xml(xml_input):n    tree = ET.fromstring(xml_input)n    return tree""",1
+"""import osndef unsafe_system_call():n    command = input('Komut: ')n    os.system(command)""",1
+"""import picklendef load_pickled_data(data):n    return pickle.loads(data)""",1
+"""import osndef remove_symlink():n    link = input('Symlink: ')n    os.remove(link)""",1
+"""user_input = input('Veri girin: ')n# Eval kullanımından kaçınılmalıdır. Güvenli alternatifler kullanılmalıdır.nprint('Girdi alındı.')""",0
+"""import picklenuser_input = input('Veriyi girin: ')ntry:n    data = pickle.loads(user_input.encode())n    # Güvenli işlemler yapınnexcept pickle.UnpicklingError:n    print('Geçersiz veri formatı.')""",0
+"""import yamlndef load_config(config_str):n    try:n        return yaml.safe_load(config_str)n    except yaml.YAMLError as e:n        print(f'YAML hatası: {e}')""",0
+"""import jsonnuser_data = input('JSON verisi girin: ')ntry:n    data = json.loads(user_data)n    # Güvenli işlemler yapınnexcept json.JSONDecodeError:n    print('Geçersiz JSON formatı.')""",0
+"""import osndef delete_file():n    filename = input('Silinecek dosya: ')n    if os.path.isfile(filename):n        os.remove(filename)n    else:n        print('Dosya bulunamadı.')""",0
+"""import hashlibndef hash_password(password):n    return hashlib.sha256(password.encode()).hexdigest()""",0
+"""import sysndef get_command_line_args():n    args = sys.argv[1:]n    print(args)""",0
+"""import sslndef secure_ssl_context():n    context = ssl.create_default_context()n    return context""",0
+"""import jsonndef load_json(data):n    try:n        return json.loads(data)n    except json.JSONDecodeError as e:n        print(f'JSON hatası: {e}')""",0
+"""import picklendef load_pickled_data(data):n    # Güvenli olmayan pickle kullanımından kaçınınn    try:n        return pickle.loads(data.encode())n    except pickle.UnpicklingError as e:n        print(f'Pickle hatası: {e}')""",0
+"""import osndef remove_directory():n    path = input('Silinecek dizin: ')n    if os.path.isdir(path):n        os.rmdir(path)n    else:n        print('Dizin bulunamadı veya boş değil.')""",0
+"""import picklendef unsafe_pickle_load_func():n    # Güvenli olmayan pickle kullanımından kaçınınn    data = input('Veri: ')n    try:n        return pickle.loads(data.encode())n    except pickle.UnpicklingError as e:n        print(f'Pickle hatası: {e}')""",0
+"""import xml.etree.ElementTree as ETndef parse_user_xml(xml_input):n    try:n        tree = ET.fromstring(xml_input)n        return treen    except ET.ParseError as e:n        print(f'XML parse hatası: {e}')""",0
+"""import picklendef load_pickled_data(data):n    # Güvenli olmayan pickle kullanımından kaçınınn    try:n        return pickle.loads(data.encode())n    except pickle.UnpicklingError as e:n        print(f'Pickle hatası: {e}')""",0
+"""import osndef remove_symlink():n    link = input('Symlink: ')n    if os.path.islink(link):n        os.remove(link)n    else:n        print('Geçersiz symlink.')""",0
+"""import osncommand = input('Komut girin: ')nos.system(command)""",1
+"""import sqlite3nconn = sqlite3.connect('veritabani.db')ncursor = conn.cursor()nusername = input('Kullanıcı adı: ')npassword = input('Parola: ')nquery = f""SELECT * FROM users WHERE username='{username}' AND password='{password}'""ncursor.execute(query)""",1
+"""user_input = input('Veri girin: ')neval(user_input)""",1
+"""import picklendata = input('Veri girin: ')npickle.loads(data)""",1
+"""import yamlndef load_config(config_str):n    return yaml.load(config_str)""",1
+"""import jsonnuser_data = input('JSON verisi girin: ')njson.loads(user_data)""",1
+"""import osndef delete_file():n    filename = input('Silinecek dosya: ')n    os.remove(filename)""",1
+"""import hashlibndef hash_password(password):n    return hashlib.sha1(password.encode()).hexdigest()""",1
+"""import sysndef get_command_line_args():n    args = sys.argv[1:]n    print(args)""",1
+"""import base64ndef decode_string(encoded):n    return base64.b64decode(encoded)""",1
+"""import sslndef insecure_ssl_context():n    context = ssl._create_unverified_context()n    return context""",1
+"""import jsonndef load_json(data):n    return json.loads(data)""",1
+"""import subprocessndef execute_user_command():n    command = input('Komut: ')n    subprocess.call(command)""",1
+"""import picklendef load_pickled_data(data):n    return pickle.loads(data)""",1
+"""import osndef unsafe_chdir():n    path = input('Dizin yolu: ')n    os.chdir(path)""",1
+"""import hashlibndef insecure_hash(password):n    return hashlib.md5(password.encode()).hexdigest()""",1
+"""import osndef remove_directory():n    path = input('Silinecek dizin: ')n    os.rmdir(path)""",1
+"""import picklendef unsafe_pickle_load_func():n    data = input('Veri: ')n    pickle.loads(data)""",1
+"""import osndef delete_directory():n    path = input('Silinecek dizin: ')n    os.rmdir(path)""",1
+"""import osndef unsafe_mkdir():n    dirname = input('Dizin adı: ')n    os.mkdir(dirname)""",1
+"""import xml.etree.ElementTree as ETndef parse_user_xml(xml_input):n    tree = ET.fromstring(xml_input)n    return tree""",1
+"""import osndef unsafe_system_call():n    command = input('Komut: ')n    os.system(command)""",1
+"""import picklendef load_pickled_data(data):n    return pickle.loads(data)""",1
+"""import osndef remove_symlink():n    link = input('Symlink: ')n    os.remove(link)""",1
+"""user_input = input('Veri girin: ')n# Eval kullanımından kaçınılmalıdır. Güvenli alternatifler kullanılmalıdır.nprint('Girdi alındı.')""",0
+"""import picklenuser_input = input('Veriyi girin: ')ntry:n    data = pickle.loads(user_input.encode())n    # Güvenli işlemler yapınnexcept pickle.UnpicklingError:n    print('Geçersiz veri formatı.')""",0
+"""import yamlndef load_config(config_str):n    try:n        return yaml.safe_load(config_str)n    except yaml.YAMLError as e:n        print(f'YAML hatası: {e}')""",0
+"""import jsonnuser_data = input('JSON verisi girin: ')ntry:n    data = json.loads(user_data)n    # Güvenli işlemler yapınnexcept json.JSONDecodeError:n    print('Geçersiz JSON formatı.')""",0
+"""import osndef delete_file():n    filename = input('Silinecek dosya: ')n    if os.path.isfile(filename):n        os.remove(filename)n    else:n        print('Dosya bulunamadı.')""",0
+"""import hashlibndef hash_password(password):n    return hashlib.sha256(password.encode()).hexdigest()""",0
+"""import sysndef get_command_line_args():n    args = sys.argv[1:]n    print(args)""",0
+"""import sslndef secure_ssl_context():n    context = ssl.create_default_context()n    return context""",0
+"""import jsonndef load_json(data):n    try:n        return json.loads(data)n    except json.JSONDecodeError as e:n        print(f'JSON hatası: {e}')""",0
+"""import picklendef load_pickled_data(data):n    try:n        return pickle.loads(data.encode())n    except pickle.UnpicklingError as e:n        print(f'Pickle hatası: {e}')""",0
+"""import osndef remove_directory():n    path = input('Silinecek dizin: ')n    if os.path.isdir(path):n        os.rmdir(path)n    else:n        print('Dizin bulunamadı veya boş değil.')""",0
+"""import picklendef unsafe_pickle_load_func():n    # Güvenli olmayan pickle kullanımından kaçınınn    data = input('Veri: ')n    try:n        return pickle.loads(data.encode())n    except pickle.UnpicklingError as e:n        print(f'Pickle hatası: {e}')""",0
+"""import xml.etree.ElementTree as ETndef parse_user_xml(xml_input):n    try:n        tree = ET.fromstring(xml_input)n        return treen    except ET.ParseError as e:n        print(f'XML parse hatası: {e}')""",0
+"""import picklendef load_pickled_data(data):n    try:n        return pickle.loads(data)n    except pickle.UnpicklingError as e:n        print(f'Pickle hatası: {e}')""",0
+"""import osndef remove_symlink():n    link = input('Symlink: ')n    if os.path.islink(link):n        os.remove(link)n    else:n        print('Geçersiz symlink.')""",0
