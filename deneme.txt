@@ -1,0 +1,88 @@
+Zafiyetli SQL:----------------------------------------------------
+UPDATE products SET price = $_POST['price'] WHERE product_id = $_GET['product_id'];
+INSERT INTO comments (user_id, comment) VALUES ($_POST['user_id'], '$_POST['comment']');
+SELECT * FROM users WHERE user_id = '1; DROP TABLE users; --';
+UPDATE users SET email = '$_POST['email']' WHERE user_id = '$_POST['user_id']';
+
+Zafiyetsiz SQL:----------------------------------------------------
+SELECT * FROM users WHERE username = ? AND password = ?
+DELETE FROM orders WHERE order_id = ?
+SELECT username, email, created_at FROM users WHERE user_id = ?
+INSERT INTO products (name, description, price, stock) VALUES (?, ?, ?, ?)
+SELECT * FROM products WHERE name = ? AND category = ?;
+
+Zafiyetli SQL:----------------------------------------------------
+UPDATE orders SET status = '$_GET['status']' WHERE order_id = $_POST['order_id'];
+INSERT INTO users (username, email, password) VALUES ('$_POST['username']', '$_POST['email']', '$_POST['password']');
+SELECT * FROM products WHERE name = '$_POST['product_name']' AND category = '$_GET['category']';
+
+
+Zafiyetli PYThon:----------------------------------------------------
+import os
+directory = input("Dizin: ")
+os.system("rm -rf " + directory)
+
+import sqlite3
+conn = sqlite3.connect('database.db')
+query = input("SQL sorgusu: ")
+conn.execute(query)
+conn.commit()
+
+import subprocess
+command = input("Komut: ")
+subprocess.call(command, shell=True)
+
+Zafiyetsiz PYThon:----------------------------------------------------
+import os
+directory = input("Dizin: ")
+if os.path.isdir(directory):
+    os.rmdir(directory)
+else:
+    print("Geçersiz dizin.")
+
+import sqlite3
+conn = sqlite3.connect('database.db')
+query = input("SQL sorgusu: ")
+allowed_queries = ["SELECT", "INSERT", "UPDATE", "DELETE"]
+if any(query.strip().upper().startswith(cmd) for cmd in allowed_queries):
+    conn.execute(query)
+    conn.commit()
+else:
+    print("Geçersiz sorgu.")
+conn.close()
+
+import subprocess
+command = input("Komut: ")
+allowed_commands = ["ls", "pwd", "whoami"]
+if command in allowed_commands:
+    subprocess.run([command])
+else:
+    print("İzin verilmeyen komut.")
+
+Zafiyetli PHP----------------------------------------------------
+<?php
+$search = $_GET['search'];
+$query = "SELECT * FROM products WHERE name LIKE '%" . $search . "%'";
+$result = mysqli_query($conn, $query);
+?>
+
+<?php
+$user_id = $_POST['user_id'];
+$password = $_POST['password'];
+$query = "SELECT * FROM users WHERE id = '$user_id' AND password = '$password'";
+$result = mysqli_query($conn, $query);
+?>
+
+<?php
+$file = $_GET['file'];
+include($file);
+?>
+
+Zafiyetsiz PHP----------------------------------------------------
+<?php require_once('functions.php'); ?>
+
+<?php echo exec('echo secure'); ?>
+
+<?php system('date'); ?>
+echo 'PHP security practices in progress!';
+echo rtrim('Clear right padding   ');
