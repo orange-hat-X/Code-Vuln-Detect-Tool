@@ -31,7 +31,7 @@ class CodeAnalyzer(QWidget):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("Güvenlik Zafiyet Analizörü")
-        self.setGeometry(100, 100, 800, 300)
+        self.setGeometry(100, 100, 500, 600)
         
         # Layout oluşturma
         layout = QVBoxLayout()
