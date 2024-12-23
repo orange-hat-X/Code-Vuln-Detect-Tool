@@ -84,5 +84,7 @@ Zafiyetsiz PHP----------------------------------------------------
 <?php echo exec('echo secure'); ?>
 
 <?php system('date'); ?>
+
 echo 'PHP security practices in progress!';
+
 echo rtrim('Clear right padding   ');
